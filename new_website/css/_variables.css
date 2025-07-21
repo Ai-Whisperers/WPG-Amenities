@@ -1,0 +1,135 @@
+/* 
+  CSS Variables
+  This file centralizes all design tokens for the website, including colors, fonts, and spacing.
+  To change the theme, you only need to change the variables in the :root selector.
+*/
+
+/* 
+  ==============================================
+  THEME DEFINITIONS
+  Uncomment one of the palettes below to activate it.
+  ==============================================
+*/
+
+/* PALETTE 1: Corporate Blue & Gray (Default) */
+:root {
+  /* Primary Colors */
+  --color-primary: #3E4095; /* Original website's dark blue */
+  --color-primary-light: #A0A2CF; /* Original website's light purple */
+  --color-primary-dark: #2c2e6a;
+  --color-accent: #D4AF37; /* Gold accent */
+
+  /* Neutral Colors */
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-background: #FFFFFF;
+  --color-background-light: #f5f7fa;
+  --color-border: #e0e0e0;
+
+  /* Font & Sizing Variables are defined below the palettes */
+}
+
+/* PALETTE 2: Luxury Black & Gold */
+/*
+:root {
+  --color-primary: #1a1a1a;
+  --color-primary-light: #333333;
+  --color-primary-dark: #000000;
+  --color-accent: #c5b358; 
+
+  --color-text: #e5e5e5;
+  --color-text-light: #cccccc;
+  --color-background: #121212;
+  --color-background-light: #1f1f1f;
+  --color-border: #444444;
+}
+*/
+
+/* PALETTE 3: Natural & Eco-friendly Green */
+/*
+:root {
+  --color-primary: #4CAF50;
+  --color-primary-light: #81C784;
+  --color-primary-dark: #388E3C;
+  --color-accent: #FFC107;
+
+  --color-text: #212121;
+  --color-text-light: #757575;
+  --color-background: #F5F5F5;
+  --color-background-light: #FFFFFF;
+  --color-border: #E0E0E0;
+}
+*/
+
+/* PALETTE 4: Modern & Minimalist */
+/*
+:root {
+  --color-primary: #2c3e50;
+  --color-primary-light: #34495e;
+  --color-primary-dark: #1a242f;
+  --color-accent: #e74c3c;
+
+  --color-text: #34495e;
+  --color-text-light: #7f8c8d;
+  --color-background: #ecf0f1;
+  --color-background-light: #ffffff;
+  --color-border: #bdc3c7;
+}
+*/
+
+/* PALETTE 5: Warm & Inviting Earth Tones */
+/*
+:root {
+  --color-primary: #8d6e63; 
+  --color-primary-light: #be9c91;
+  --color-primary-dark: #5f4339;
+  --color-accent: #ffab40;
+
+  --color-text: #4e342e;
+  --color-text-light: #7b5e57;
+  --color-background: #efebe9;
+  --color-background-light: #ffffff;
+  --color-border: #d7ccc8;
+}
+*/
+
+
+/* 
+  ==============================================
+  GLOBAL TYPOGRAPHY & SIZING
+  These variables are shared across all themes.
+  ==============================================
+*/
+:root {
+  /* Font Families */
+  --font-family-headings: 'Georgia', 'Times New Roman', serif;
+  --font-family-body: 'Helvetica Neue', 'Arial', sans-serif;
+  
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-base: 1rem;    /* 16px */
+  --font-size-lg: 1.125rem;  /* 18px */
+  --font-size-xl: 1.25rem;   /* 20px */
+  --font-size-2xl: 1.5rem;   /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2.25rem;  /* 36px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Other */
+  --border-radius: 4px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition-speed: 300ms;
+} 
