@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Report - WPG Amenities</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+        }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #007acc;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007acc;
+        }
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .screenshot-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+        }
+        .screenshot-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: top;
+        }
+        .screenshot-info {
+            padding: 15px;
+        }
+        .screenshot-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .screenshot-meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .failed {
+            border-left-color: #dc3545;
+        }
+        .failed .stat-number {
+            color: #dc3545;
+        }
+        .error-message {
+            color: #dc3545;
+            font-size: 0.85em;
+            background: #f8d7da;
+            padding: 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+        .timestamp {
+            text-align: center;
+            color: #666;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Screenshot Report - WPG Amenities</h1>
+        
+        <div class="summary">
+            <div class="stat-card">
+                <div class="stat-number">36</div>
+                <div>Total Screenshots</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">36</div>
+                <div>Successful</div>
+            </div>
+            <div class="stat-card failed">
+                <div class="stat-number">0</div>
+                <div>Failed</div>
+            </div>
+        </div>
+
+        <h2>✅ Successful Screenshots</h2>
+        <div class="screenshots-grid">
+            
+                <div class="screenshot-card">
+                    <img src="./home_desktop.png" alt="Screenshot of home_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">home_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/index.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./products_desktop.png" alt="Screenshot of products_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">products_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./customization_desktop.png" alt="Screenshot of customization_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">customization_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/customization.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./portfolio_desktop.png" alt="Screenshot of portfolio_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">portfolio_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/portfolio.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./about_desktop.png" alt="Screenshot of about_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">about_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/about.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./faq_desktop.png" alt="Screenshot of faq_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">faq_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/faq.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./amenity-kits_desktop.png" alt="Screenshot of amenity-kits_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">amenity-kits_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/amenity-kits.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./bottles-caps_desktop.png" alt="Screenshot of bottles-caps_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">bottles-caps_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/bottles-caps.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./soaps-liquids_desktop.png" alt="Screenshot of soaps-liquids_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">soaps-liquids_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/soaps-liquids.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./accessories-extras_desktop.png" alt="Screenshot of accessories-extras_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">accessories-extras_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/accessories-extras.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./privacy-policy_desktop.png" alt="Screenshot of privacy-policy_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">privacy-policy_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/privacy-policy.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./terms-of-service_desktop.png" alt="Screenshot of terms-of-service_desktop.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">terms-of-service_desktop.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/terms-of-service.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./home_tablet.png" alt="Screenshot of home_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">home_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/index.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./products_tablet.png" alt="Screenshot of products_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">products_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./customization_tablet.png" alt="Screenshot of customization_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">customization_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/customization.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./portfolio_tablet.png" alt="Screenshot of portfolio_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">portfolio_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/portfolio.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./about_tablet.png" alt="Screenshot of about_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">about_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/about.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./faq_tablet.png" alt="Screenshot of faq_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">faq_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/faq.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./amenity-kits_tablet.png" alt="Screenshot of amenity-kits_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">amenity-kits_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/amenity-kits.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./bottles-caps_tablet.png" alt="Screenshot of bottles-caps_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">bottles-caps_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/bottles-caps.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./soaps-liquids_tablet.png" alt="Screenshot of soaps-liquids_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">soaps-liquids_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/soaps-liquids.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./accessories-extras_tablet.png" alt="Screenshot of accessories-extras_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">accessories-extras_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/accessories-extras.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./privacy-policy_tablet.png" alt="Screenshot of privacy-policy_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">privacy-policy_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/privacy-policy.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./terms-of-service_tablet.png" alt="Screenshot of terms-of-service_tablet.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">terms-of-service_tablet.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/terms-of-service.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./home_mobile.png" alt="Screenshot of home_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">home_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/index.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./products_mobile.png" alt="Screenshot of products_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">products_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./customization_mobile.png" alt="Screenshot of customization_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">customization_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/customization.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./portfolio_mobile.png" alt="Screenshot of portfolio_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">portfolio_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/portfolio.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./about_mobile.png" alt="Screenshot of about_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">about_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/about.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./faq_mobile.png" alt="Screenshot of faq_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">faq_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/faq.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./amenity-kits_mobile.png" alt="Screenshot of amenity-kits_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">amenity-kits_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/amenity-kits.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./bottles-caps_mobile.png" alt="Screenshot of bottles-caps_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">bottles-caps_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/bottles-caps.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./soaps-liquids_mobile.png" alt="Screenshot of soaps-liquids_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">soaps-liquids_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/soaps-liquids.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./accessories-extras_mobile.png" alt="Screenshot of accessories-extras_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">accessories-extras_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/products/accessories-extras.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./privacy-policy_mobile.png" alt="Screenshot of privacy-policy_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">privacy-policy_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/privacy-policy.html</div>
+                    </div>
+                </div>
+            
+                <div class="screenshot-card">
+                    <img src="./terms-of-service_mobile.png" alt="Screenshot of terms-of-service_mobile.png" loading="lazy">
+                    <div class="screenshot-info">
+                        <div class="screenshot-title">terms-of-service_mobile.png</div>
+                        <div class="screenshot-meta">http://127.0.0.1:8081/terms-of-service.html</div>
+                    </div>
+                </div>
+            
+        </div>
+
+        
+
+        <div class="timestamp">
+            Generated on 7/21/2025, 1:47:36 PM
+        </div>
+    </div>
+</body>
+</html>
+    

@@ -1,0 +1,440 @@
+# Este archivo contiene todo el contenido del nuevo sitio web.
+
+#--------------------------------
+# Configuración General del Sitio
+#--------------------------------
+site:
+  title: "WPG Amenities"
+  logo: "images/layout/header/Header1055.gif"
+  navigation:
+    - text: "Inicio"
+      url: "/index.html"
+    - text: "Productos"
+      url: "/products.html"
+    - text: "Personalización"
+      url: "/customization.html"
+    - text: "Nosotros"
+      url: "/about.html"
+  footer:
+    copyright: "&copy; 2025 WPG Amenities. Todos los derechos reservados."
+    address: "Guido Spano 1139, Asunción Paraguay | Tel. +595 (21)-663978"
+    social_links:
+      - name: "Facebook"
+        url: "http://www.facebook.com/WPG.Amenities"
+        icon: "facebook.svg"
+      - name: "Twitter"
+        url: "http://www.twitter.com/WpgAmenities"
+        icon: "twitter.svg"
+      - name: "Google Plus"
+        url: "https://plus.google.com/u/0/b/111322519715414897652/111322519715414897652/about"
+        icon: "google-plus.svg"
+    utility_links:
+      - text: "Política de Privacidad"
+        url: "/privacy-policy.html"
+      - text: "Términos de Servicio"
+        url: "/terms-of-service.html"
+
+#--------------------------------
+# Página de Inicio
+#--------------------------------
+homepage:
+  hero:
+    headline: "Su Socio Estratégico en Amenities Premium para Hoteles"
+    tagline: "Desde líneas de productos personalizados hasta amenities esenciales de alta calidad, ofrecemos todo lo necesario para crear experiencias memorables para sus huéspedes."
+    slides:
+      - image: "images/hero-slides/inicio01.png"
+        alt: "Colección premium de amenities para hoteles"
+      - image: "images/hero-slides/inicio02.png"
+        alt: "Variedad de botellas y tapas"
+      - image: "images/hero-slides/inicio03.png"
+        alt: "Kits de amenities para huéspedes"
+      - image: "images/hero-slides/inicio04.png"
+        alt: "Accesorios y extras"
+      - image: "images/hero-slides/inicio05.png"
+        alt: "Jabones y líquidos"
+      - image: "images/hero-slides/inicio06.png"
+        alt: "Soluciones de marca personalizada"
+      - image: "images/hero-slides/inicio07.png"
+        alt: "Soluciones completas de amenities"
+    primary_cta:
+      text: "Explorar Productos"
+      url: "/products.html"
+    secondary_cta:
+      text: "Crear Línea Personalizada"
+      url: "/customization.html"
+
+  value_proposition:
+    headline: "Constancia, Seriedad y Calidad"
+    text: "En 2005, tras años de experiencia en el sector hotelero, Sonia y Carlos Weiss fundaron WPG Amenities con la visión de revolucionar el mercado de amenities en Paraguay. Nuestra filosofía se basa en tres pilares fundamentales: la constancia en el servicio, la seriedad en cada compromiso y la calidad inquebrantable en cada producto. Durante más de dos décadas, hemos construido relaciones duraderas con los hoteles más prestigiosos del país, consolidándonos como líderes indiscutibles en el sector."
+
+  featured_products:
+    headline: "Descubra Nuestros Productos"
+    description: "Explore nuestra amplia gama de amenities hoteleros diseñados para elevar la experiencia de sus huéspedes y fortalecer la identidad de su marca."
+    categories:
+      - title: "Botellas y Tapas"
+        id: "bottles-caps"
+        description: "Amplia variedad de formas, tamaños y tipos de tapas en múltiples colores y acabados elegantes."
+        url: "/products/bottles-caps.html"
+        image: "images/products/bottles-caps/botellas.gif"
+        featured_items: 3
+      - title: "Jabones y Líquidos"
+        id: "soaps-liquids"
+        description: "Jabones artesanales de alta calidad y amenities líquidos con ingredientes naturales premium."
+        url: "/products/soaps-liquids.html"
+        image: "images/products/soaps/jabones.gif"
+        featured_items: 4
+      - title: "Kits de Amenities"
+        id: "amenity-kits"
+        description: "Kits prediseñados completos para la comodidad y conveniencia de sus huéspedes más exigentes."
+        url: "/products/amenity-kits.html"
+        image: "images/products/kits/kits_dentalkit.gif"
+        featured_items: 6
+      - title: "Servicios Personalizados"
+        id: "custom-services"
+        description: "Diseño y creación completa de líneas de amenities personalizadas que reflejan su marca."
+        url: "/customization.html"
+        image: "images/products/services/disenocreaciondelinea.gif"
+        featured_items: 0
+
+  why_choose_us:
+    headline: "¿Por Qué Elegir WPG Amenities?"
+    features:
+      - title: "Más de 20 Años de Experiencia"
+        description: "Dos décadas de expertise especializado en la industria hotelera paraguaya"
+        icon: "experience.svg"
+      - title: "Calidad Premium Garantizada"
+        description: "Todos nuestros productos cumplen con los más altos estándares internacionales"
+        icon: "quality.svg"
+      - title: "Soluciones Completamente Personalizadas"
+        description: "Líneas de amenities diseñadas específicamente para reflejar la identidad única de su marca"
+        icon: "custom.svg"
+      - title: "Liderazgo Local"
+        description: "Empresa líder y pionera en el mercado de amenities hoteleros en Paraguay"
+        icon: "local.svg"
+
+#--------------------------------
+# Productos
+#--------------------------------
+products:
+  main:
+    headline: "Amenities de Primera Calidad para Cada Huésped"
+    introduction: "Explore nuestra extensa colección de productos estándar, cuidadosamente diseñados para satisfacer las necesidades diversas de sus huéspedes. Desde jabones de lujo hasta accesorios esenciales, contamos con todo lo necesario para crear una experiencia hotelera inolvidable."
+  
+  categories:
+    - title: "Botellas y Tapas"
+      id: "bottles-caps"
+      description: "Una selección integral de formas de botellas, tamaños y tipos de tapas en diversos colores y acabados premium para complementar cualquier estética hotelera."
+      url: "/products/bottles-caps.html"
+      category_image: "images/products/bottles-caps/botellas.gif"
+      items:
+        - name: "Botella Estándar 02"
+          image: "images/products/bottles-caps/botellas_02.gif"
+          description: "Diseño clásico perfecto para champú y acondicionador de uso diario"
+        - name: "Botella Estándar 15"
+          image: "images/products/bottles-caps/botellas_15.gif"
+          description: "Botella de forma elegante ideal para amenities premium y productos especializados"
+        - name: "Tapa Plana Dorada"
+          code: "TFH-D"
+          image: "images/products/bottles-caps/tapas_dorada.gif"
+          description: "Tapa plana con acabado dorado premium para proyectos de lujo"
+        - name: "Tapa Plana Verde"
+          code: "TFH-V"
+          image: "images/products/bottles-caps/tapas_flatheadverde.gif"
+          description: "Elegante tapa plana verde ideal para branding ecológico y sustentable"
+
+    - title: "Jabones y Líquidos"
+      id: "soaps-liquids"
+      description: "Jabones artesanales de calidad superior y amenities líquidos elaborados con ingredientes naturales, disponibles en una variedad de fragancias exclusivas."
+      url: "/products/soaps-liquids.html"
+      category_image: "images/products/soaps/jabones.gif"
+      bulk_note: "Shampoo, acondicionador, jabón líquido y crema corporal disponibles a granel."
+      items:
+        - name: "Jabón de Coco"
+          image: "images/products/soaps/jabon_jabondecoco.gif"
+          description: "Jabón artesanal de aceite de coco natural con propiedades hidratantes y nutritivas"
+        - name: "Shampoo Transparente"
+          image: "images/products/soaps/shampoo_transparente.gif"
+          description: "Shampoo de fórmula transparente para todo tipo de cabello"
+        - name: "Shampoo Nacarado"
+          image: "images/products/soaps/shampoo_nacarado.gif"
+          description: "Shampoo con acabado nacarado que aporta brillo y suavidad"
+        - name: "Acondicionador"
+          image: "images/products/soaps/acondicionador.gif"
+          description: "Acondicionador nutritivo que desenreda y protege el cabello"
+        - name: "Crema Corporal"
+          image: "images/products/soaps/crema_corporal.gif"
+          description: "Crema hidratante corporal con ingredientes naturales"
+        - name: "Jabón de Baño Azul"
+          image: "images/products/soaps/jabon_bano_azul.gif"
+          description: "Jabón líquido de baño con fragancia fresca color azul"
+        - name: "Jabón de Baño Transparente"
+          image: "images/products/soaps/jabon_bano_transparente.gif"
+          description: "Jabón líquido transparente con fórmula suave para la piel"
+        - name: "Sales de Baño"
+          image: "images/products/soaps/sales_bano.gif"
+          description: "Sales de baño relajantes disponibles en 4 colores con aroma único"
+
+    - title: "Kits de Amenities"
+      id: "amenity-kits"
+      description: "Kits de amenities cuidadosamente curados que brindan todo lo que sus huéspedes necesitan para su comodidad, conveniencia y bienestar durante su estadía."
+      url: "/products/amenity-kits.html"
+      category_image: "images/products/kits/kits_kitdebeleza.gif"
+      items:
+        - name: "Vanity Kit"
+          image: "images/products/kits/vanity_kit.gif"
+          description: "Kit de artículos de tocador esenciales para el cuidado personal"
+          future_page: true
+        - name: "Shower Cap"
+          image: "images/products/kits/shower_cap.gif"
+          description: "Gorro de ducha impermeable de alta calidad para proteger el cabello"
+          future_page: true
+        - name: "Peine"
+          image: "images/products/kits/peine.gif"
+          description: "Peine de diseño elegante para el cuidado del cabello"
+          future_page: true
+        - name: "Kit de Costura"
+          image: "images/products/kits/kit_costura.gif"
+          description: "Kit completo de costura con hilos, agujas y botones de emergencia"
+          future_page: true
+        - name: "Kit de Rasurar"
+          image: "images/products/kits/kit_rasurar.gif"
+          description: "Kit de afeitado con maquinilla desechable y gel de afeitar"
+          future_page: true
+        - name: "Kit Dental"
+          image: "images/products/kits/kits_dentalkit.gif"
+          description: "Kit completo de cuidado dental con cepillo de dientes y pasta dental de calidad"
+          future_page: true
+        - name: "Lustracalzado"
+          image: "images/products/kits/lustracalzado.gif"
+          description: "Kit de limpieza y cuidado de calzado con esponja y betún"
+          future_page: true
+
+    - title: "Varios"
+      id: "miscellaneous"
+      description: "Productos diversos y accesorios esenciales para completar la experiencia hotelera de sus huéspedes."
+      url: "/products/miscellaneous.html"
+      category_image: "images/products/varios/perchas.gif"
+      items:
+        - name: "Perchas"
+          image: "images/products/varios/perchas.gif"
+          description: "Perchas de alta calidad para colgar la ropa de los huéspedes"
+        - name: "Dispensers de Shampoo y Acondicionador"
+          image: "images/products/varios/dispensers.gif"
+          description: "Dispensadores de pared para shampoo y acondicionador, ideales para duchas"
+        - name: "Carrito Maletero"
+          image: "images/products/varios/carrito_maletero.gif"
+          description: "Carrito resistente para el transporte de equipaje de los huéspedes"
+        - name: "Carrito de Servicio"
+          image: "images/products/varios/carrito_servicio.gif"
+          description: "Carrito multifuncional para servicios de limpieza y mantenimiento"
+
+#--------------------------------
+# Personalización
+#--------------------------------
+customization:
+  headline: "Personalice Sus Amenities con Su Marca"
+  hero_image: "images/products/services/disenocreaciondelinea.gif"
+  introduction: "Transforme nuestros productos estándar en amenities únicos que reflejen la identidad de su marca. Ofrecemos servicios de personalización para botellas, kits de amenities, perchas, carritos y más. Desde stickers personalizados hasta serigrafía profesional y cajas exclusivas, creamos soluciones que fortalecen su imagen corporativa y mejoran la experiencia de sus huéspedes."
+  
+  services:
+    - title: "Diseño de Productos Personalizados"
+      description: "Colaboramos estrechamente con usted para diseñar y crear una línea de productos única, desde la forma de las botellas hasta el color y textura de los líquidos, asegurando coherencia total con su identidad de marca."
+      applicable_products: "Botellas, tapas, jabones, kits de amenities"
+      icon: "design.svg"
+    - title: "Stickers Personalizados"
+      description: "Creamos stickers y etiquetas adhesivas personalizadas con su logo y diseño corporativo, perfectos para aplicar en botellas, dispensers y productos diversos."
+      applicable_products: "Botellas, dispensers, perchas, carritos"
+      icon: "stickers.svg"
+    - title: "Serigrafía Profesional"
+      description: "Servicio de serigrafía de alta calidad para imprimir su logo directamente en productos, garantizando durabilidad y acabado profesional en cada pieza."
+      applicable_products: "Botellas, kits de amenities, perchas"
+      icon: "serigraphy.svg"
+    - title: "Cajas Personalizadas"
+      description: "Diseño y fabricación de cajas personalizadas especialmente para kits de amenities, creando una presentación elegante que refleje la identidad de su marca."
+      applicable_products: "Kits de amenities, productos especiales"
+      icon: "custom-boxes.svg"
+  
+  process:
+    headline: "Nuestro Proceso de Trabajo"
+    steps:
+      - title: "Consultoría Estratégica"
+        description: "Iniciamos con una conversación profunda para entender su marca, visión, objetivos específicos y requerimientos particulares."
+        step: "01"
+      - title: "Diseño y Prototipado"
+        description: "Nuestro equipo crea maquetas detalladas y muestras físicas para su aprobación, asegurando que el producto final supere sus expectativas."
+        step: "02"
+      - title: "Producción y Entrega"
+        description: "Manejamos la producción completa y entregamos su línea personalizada de amenities directamente en su establecimiento."
+        step: "03"
+  
+  cta:
+    text: "Solicitar Consultoría Gratuita"
+    url: "/contact.html"
+
+
+#--------------------------------
+# Acerca de Nosotros
+#--------------------------------
+about_us:
+  page_hero:
+    headline: "Conozca WPG Amenities"
+    tagline: "Líderes en amenities hoteleros desde 2005"
+    
+  our_story:
+    headline: "Nuestra Historia"
+    text: "En 2005, tras años de experiencia acumulada en el dinámico sector hotelero, Sonia y Carlos Weiss fundaron WPG Amenities con una misión clara y ambiciosa: revolucionar la industria de amenities en Paraguay ofreciendo productos de calidad excepcional acompañados de un servicio personalizado incomparable. Desde nuestros humildes comienzos, hemos crecido hasta convertirnos en la empresa líder del sector, manteniendo siempre nuestros valores fundamentales de constancia, seriedad y calidad. Nuestra dedicación inquebrantable y nuestro compromiso genuino con la excelencia nos han posicionado como los pioneros y líderes indiscutibles en el mercado paraguayo de amenities hoteleros, construyendo relaciones duraderas basadas en la confianza mutua y resultados excepcionales."
+    
+  our_mission:
+    headline: "Nuestra Misión"
+    text: "Ofrecer a cada cliente lo mejor de WPG Amenities, colaborando estrechamente para crear productos únicos y excepcionales que superen las expectativas. Nos comprometemos a ser flexibles y adaptarnos ágilmente ante cualquier desafío o requerimiento especial, manteniendo siempre la más alta calidad en cada producto y servicio que brindamos."
+    
+  our_values:
+    headline: "Nuestros Valores"
+    values:
+      - title: "Constancia"
+        description: "Consistencia inquebrantable en la calidad de nuestros productos y la excelencia en la prestación de servicios"
+      - title: "Seriedad"
+        description: "Enfoque profesional riguroso y confiable en cada relación comercial y compromiso adquirido"
+      - title: "Calidad"
+        description: "Compromiso sin concesiones con la excelencia en cada producto que desarrollamos y entregamos"
+      - title: "Innovación"
+        description: "Mejora continua y desarrollo de soluciones creativas que anticipen las necesidades del mercado"
+        
+  team:
+    headline: "Conozca Nuestro Equipo"
+    members:
+      - name: "Sonia Weiss"
+        role: "Propietaria y Directora General"
+        bio: "Fundadora y alma mater de WPG Amenities, Sonia lidera la empresa con visión estratégica y pasión por la excelencia. Trabajando junto con su hermano Carlos desde 2005, ha construido la reputación de calidad y confiabilidad que nos distingue en el mercado."
+        image: "team/sonia-weiss.jpg"
+      - name: "Carlos Weiss"
+        role: "Director de Ventas y Relaciones Comerciales"
+        bio: "Como cara visible de WPG Amenities y director comercial, Carlos es el intermediario directo que hace posible la materialización de los proyectos de nuestros clientes, combinando expertise técnico con excelencia en el servicio al cliente."
+        image: "team/carlos-weiss.jpg"
+      - name: "Luana Weiss"
+        role: "Gerente de Producción"
+        bio: "Responsable de supervisar todos los procesos productivos, garantizando los más altos estándares de calidad en cada etapa de fabricación."
+        image: "team/dolly-melgarejo.jpg"
+
+  company_info:
+    legal_name: "WPG® - Weiss van der Pol Group S.R.L."
+    established: "2005"
+    location: "Asunción, Paraguay"
+    specialization: "Amenities hoteleros y líneas de productos personalizados"
+
+#--------------------------------
+# Contacto
+#--------------------------------
+contact:
+  page_hero:
+    headline: "Póngase en Contacto"
+    tagline: "¿Listo para elevar la experiencia de amenities de su hotel?"
+    
+  contact_info:
+    address: "Guido Spano 1139, Asunción Paraguay"
+    phone: "+595 (21)-663978"
+    cel: "+595 (981)-472444"
+    email: "amenities@wpg.com.py"
+    
+  business_hours:
+    monday_friday: "Lunes a Viernes: 8:00 AM - 6:00 PM"
+    saturday: "Sábados: 9:00 AM - 1:00 PM"
+    sunday: "Domingos: Cerrado"
+    
+  contact_form:
+    title: "Envíenos un Mensaje"
+    fields:
+      - name: "name"
+        label: "Nombre Completo"
+        type: "text"
+        required: true
+      - name: "email"
+        label: "Correo Electrónico"
+        type: "email"
+        required: true
+      - name: "company"
+        label: "Hotel/Empresa"
+        type: "text"
+        required: false
+      - name: "phone"
+        label: "Número de Teléfono"
+        type: "tel"
+        required: false
+      - name: "service"
+        label: "Servicio de Interés"
+        type: "select"
+        options:
+          - "Productos Estándar"
+          - "Línea de Amenities Personalizada"
+          - "Consultoría Especializada"
+          - "Otros Servicios"
+        required: true
+      - name: "message"
+        label: "Mensaje"
+        type: "textarea"
+        required: true
+        
+  map:
+    coordinates: "-25.2854, -57.6098"
+    zoom: 16
+
+#--------------------------------
+# Pie de Página
+#--------------------------------
+footer:
+  company_name: "WPG® - Weiss van der Pol Group S.R.L."
+  address: "Guido Spano 1139 - Asunción - Paraguay"
+  phone: "Tel. +595 (21) - 663978"
+  cel: "Cel. +595 (981) 472444"
+  email: "amenities@wpg.com.py"
+  social_links:
+    - platform: "Facebook"
+      url: "http://www.facebook.com/WPG.Amenities"
+      icon: "facebook.svg"
+    - platform: "Twitter" 
+      url: "http://www.twitter.com/WpgAmenities"
+      icon: "twitter.svg"
+    - platform: "Google Plus"
+      url: "https://plus.google.com/u/0/b/111322519715414897652/111322519715414897652/about"
+      icon: "google-plus.svg"
+  quick_links:
+    - text: "Productos"
+      url: "/products.html"
+    - text: "Personalización"
+      url: "/customization.html"
+    - text: "Nosotros"
+      url: "/about.html"
+  legal_links:
+    - text: "Política de Privacidad"
+      url: "/privacy-policy.html"
+    - text: "Términos de Servicio"
+      url: "/terms-of-service.html"
+
+#--------------------------------
+# SEO y Meta Información
+#--------------------------------
+seo:
+  default_title: "WPG Amenities - Amenities Premium para Hoteles en Paraguay"
+  default_description: "Proveedor líder de amenities hoteleros premium en Paraguay. Líneas personalizadas, botellas, jabones, kits y más. Confianza de hoteles prestigiosos desde 2005."
+  keywords: "amenities hoteleros, Paraguay, amenities personalizados, suministros hoteleros, botellas, jabones, kits amenities, hospitalidad, WPG"
+  og_image: "images/hero-slides/inicio01.png"
+  
+pages:
+  home:
+    title: "WPG Amenities - Amenities Premium para Hoteles en Paraguay"
+    description: "Proveedor líder de amenities hoteleros premium en Paraguay. Líneas personalizadas, botellas, jabones, kits y más. Confianza de hoteles prestigiosos desde 2005."
+  products:
+    title: "Productos para Hoteles - Botellas, Jabones, Kits | WPG Amenities"
+    description: "Explore nuestra gama completa de amenities hoteleros: botellas y tapas, jabones y líquidos, kits de amenities y accesorios. Calidad premium desde 2005."
+  customization:
+    title: "Líneas Personalizadas de Amenities Hoteleros | WPG Amenities Paraguay"
+    description: "Cree líneas únicas de amenities con marca personalizada para su hotel. Servicios de diseño, fragancias, empaque y branding. Consultoría gratuita disponible."
+  about:
+    title: "Acerca de WPG Amenities - Líderes en Amenities Hoteleros Paraguay"
+    description: "Fundada en 2005 por Sonia y Carlos Weiss, WPG Amenities es el proveedor líder de amenities hoteleros en Paraguay. Conozca nuestra historia y equipo."
+  contact:
+    title: "Contacto WPG Amenities - Expertos en Amenities Hoteleros Paraguay"
+    description: "Póngase en contacto con los expertos en amenities hoteleros de Paraguay. Ubicados en Asunción. Teléfono: +595 (21)-663978. Email: amenities@wpg.com.py"
+  portfolio:
+    title: "Nuestros Clientes Hoteleros | Portafolio WPG Amenities"
+    description: "Confianza de hoteles líderes en Paraguay incluyendo Sheraton, Crowne Plaza y hoteles boutique. Vea nuestro portafolio de clientes."

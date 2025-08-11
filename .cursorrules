@@ -1,0 +1,46 @@
+# .cursorrules - Instructions for WPG Amenities Website
+
+This file provides context and rules for the AI assistant to follow when working on this project.
+
+## 1. Project Overview
+
+- **Technology Stack**: This is a static website built with vanilla HTML, CSS, and JavaScript. It does **not** use any frontend frameworks like React, Vue, or Angular.
+- **Core Principle**: The website's content is completely decoupled from the HTML. All text, images, and data are stored in `data/content.yml` and loaded dynamically by JavaScript at runtime. The HTML files act only as templates.
+- **Rendering**: The `js-yaml` library is used to parse the YAML file. JavaScript then uses this data to build and inject HTML into the DOM.
+
+## 2. Key Files & Structure
+
+- **`/public`**: This is the web server's root directory. All publicly accessible files (HTML, CSS, JS, images) must be inside this folder.
+- **`data/content.yml`**: The single source of truth for ALL website content. To change any text or image on the site, this is the file to edit.
+- **`public/js/config.js`**: A configuration file that stores all static paths. When adding new image types or asset directories, define the path here first.
+- **`public/js/main.js`**: The main application logic. It contains the `App` object which handles data fetching, routing, and rendering.
+- **`public/index.html`**: The homepage template.
+- **`public/products/*.html`**: The templates for the product category sub-pages.
+
+## 3. JavaScript Architecture (`main.js`)
+
+The entire frontend logic is contained within the global `App` object.
+
+- **`App.init()`**: The entry point. It fetches and parses `content.yml` using the path from `config.js`.
+- **`App.state`**: Holds the site data and the current page ID.
+- **`App.render()`**: The main rendering function that calls the header, footer, and page-specific renderers.
+- **`App.router`**: An object that maps the `<body>` ID of an HTML page to a specific rendering function.
+  - To create a new page, you must add a new entry to this router.
+  - For example, `router['about'] = (data) => { ... }` would be the renderer for an `about.html` file with `<body id="about">`.
+- **Render Functions**: These functions take the site data as an argument and build HTML strings to inject into the `main` element of the page. They use paths from `config.js` to construct image URLs.
+
+## 4. How to Add a New Page
+
+1.  Create a new HTML file in the `/public` directory (e.g., `about.html`).
+2.  Set a unique `id` on the `<body>` tag (e.g., `<body id="about">`). This `id` is crucial for routing.
+3.  Add the new page's content to `data/content.yml` under a key that matches the body `id` (e.g., `about:`).
+4.  Add a new rendering function for the page to the `App.router` object in `public/js/main.js`.
+5.  Add a link to the new page in the `site.navigation` section of `data/content.yml`. The header will update automatically.
+
+## 5. Coding Conventions
+
+- **HTML is for Structure Only**: Do not hardcode any text, image paths, or other content directly into HTML files. The HTML should only contain the basic layout and placeholder elements.
+- **Content Belongs in YAML**: All content must be placed in `data/content.yml`. Image and icon file names should be stored here without their paths.
+- **Paths Belong in the Config**: All asset paths must be defined in `public/js/config.js` and referenced via the `config` object in JavaScript.
+- **Follow the `App` Pattern**: All new JavaScript logic should be added as methods to the `App` object to maintain a consistent and organized structure.
+- **Use Templates for Repetitive Elements**: For repeating elements like product cards, use the existing `<template>` tag in the HTML and clone it in JavaScript. This is preferred over building complex HTML strings. 

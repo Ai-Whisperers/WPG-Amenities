@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "http-server .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "http-server public -o",
+    "screenshot": "node scripts/screenshot-pages.js",
+    "screenshot:desktop": "node scripts/screenshot-pages.js --desktop-only",
+    "screenshot:mobile": "node scripts/screenshot-pages.js --mobile-only",
+    "screenshot:tablet": "node scripts/screenshot-pages.js --tablet-only",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +22,9 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.54.1"
+    "@playwright/test": "^1.54.1",
+    "playwright": "^1.54.1",
+    "puppeteer": "^24.14.0",
+    "vite": "^7.0.5"
   }
 }
