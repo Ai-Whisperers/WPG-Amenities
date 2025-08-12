@@ -1,0 +1,669 @@
+/*
+  Page-Specific Styling for WPG Amenities
+  Enhanced styles for specific pages and components
+*/
+
+/* 
+  ==============================================
+  HOME PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#home .hero {
+  min-height: 80vh;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 50%, var(--color-accent) 100%);
+  position: relative;
+}
+
+#home .hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 100%);
+  z-index: 1;
+}
+
+#home .hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+#home .value-prop {
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-light) 100%);
+  padding: var(--spacing-16) 0;
+}
+
+#home .featured-products {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+#home .social-proof {
+  background: var(--color-background-light);
+  padding: var(--spacing-12) 0;
+}
+
+#home .social-proof h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-12);
+  color: var(--color-primary);
+}
+
+/* 
+  ==============================================
+  PRODUCTS PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#products .hero {
+  min-height: 50vh;
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+}
+
+#products .categories-list {
+  padding: var(--spacing-16) 0;
+}
+
+.category-links {
+  display: grid;
+  gap: var(--spacing-6);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .category-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.category-link {
+  display: block;
+  padding: var(--spacing-8);
+  background: white;
+  border-radius: var(--radius-xl);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.category-link:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+}
+
+.category-link h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-3);
+}
+
+.category-link p {
+  color: var(--color-text-light);
+  margin-bottom: 0;
+  line-height: var(--line-height-relaxed);
+}
+
+/* 
+  ==============================================
+  CUSTOMIZATION PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#customization .hero {
+  background: linear-gradient(135deg, var(--color-accent) 0%, #b8941f 100%);
+  text-align: center;
+  padding: var(--spacing-16) 0;
+}
+
+#customization .hero-image {
+  max-width: 300px;
+  margin: var(--spacing-8) auto;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+#customization .services {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+.services-grid {
+  display: grid;
+  gap: var(--spacing-8);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.service-card {
+  background: var(--color-background-light);
+  padding: var(--spacing-8);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.service-card:hover {
+  background: white;
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.service-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+
+#customization .process {
+  background: var(--color-background-light);
+  padding: var(--spacing-16) 0;
+}
+
+.process-steps {
+  display: grid;
+  gap: var(--spacing-8);
+  grid-template-columns: 1fr;
+  margin-top: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+  .process-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.process-step {
+  text-align: center;
+  position: relative;
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: var(--color-accent);
+  color: white;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  margin: 0 auto var(--spacing-4);
+  box-shadow: var(--shadow-md);
+}
+
+.process-step h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-3);
+}
+
+#customization .cta {
+  background: var(--color-primary);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-16) 0;
+}
+
+.cta-content h2 {
+  color: white;
+  margin-bottom: var(--spacing-6);
+}
+
+/* 
+  ==============================================
+  ABOUT PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#about .hero {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+}
+
+#about .our-story,
+#about .our-mission {
+  padding: var(--spacing-12) 0;
+}
+
+#about .our-story {
+  background: white;
+}
+
+#about .our-mission {
+  background: var(--color-background-light);
+}
+
+#about .our-values {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+.values-grid {
+  display: grid;
+  gap: var(--spacing-6);
+  grid-template-columns: 1fr;
+  margin-top: var(--spacing-8);
+}
+
+@media (min-width: 640px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.value-card {
+  background: var(--color-background-light);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.value-card:hover {
+  background: white;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.value-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-3);
+  font-size: var(--font-size-lg);
+}
+
+#about .team {
+  background: var(--color-background-light);
+  padding: var(--spacing-16) 0;
+}
+
+.team-grid {
+  display: grid;
+  gap: var(--spacing-8);
+  grid-template-columns: 1fr;
+  margin-top: var(--spacing-8);
+}
+
+@media (min-width: 640px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-member {
+  background: white;
+  padding: var(--spacing-6);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.team-member:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  margin-bottom: var(--spacing-4);
+  border: 3px solid var(--color-primary-light);
+}
+
+.team-member h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-2);
+}
+
+.team-member .role {
+  color: var(--color-accent);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-3);
+  font-size: var(--font-size-sm);
+}
+
+.team-member .bio {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: 0;
+}
+
+/* 
+  ==============================================
+  PORTFOLIO PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#portfolio .hero {
+  background: linear-gradient(135deg, #2c2e6a 0%, var(--color-primary-light) 100%);
+}
+
+#portfolio .featured-clients {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+#portfolio .all-clients {
+  background: var(--color-background-light);
+  padding: var(--spacing-16) 0;
+}
+
+.clients-grid {
+  margin-top: var(--spacing-8);
+}
+
+.client-card {
+  background: white;
+  padding: var(--spacing-6);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.client-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.client-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.client-card img {
+  max-width: 120px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: var(--spacing-4);
+}
+
+.client-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-2);
+  font-size: var(--font-size-lg);
+}
+
+.client-card p {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+}
+
+.logos-carousel {
+  margin-top: var(--spacing-8);
+  padding: var(--spacing-6);
+  background: white;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+/* 
+  ==============================================
+  PRODUCT CATEGORY PAGES
+  ==============================================
+*/
+#amenity-kits .hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+}
+
+#bottles-caps .hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+}
+
+#soaps-liquids .hero {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+}
+
+#accessories-extras .hero {
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary) 100%);
+}
+
+.product-grid-container {
+  padding: var(--spacing-16) 0;
+}
+
+.product-grid {
+  display: grid;
+  gap: var(--spacing-6);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 
+  ==============================================
+  FAQ PAGE SPECIFIC STYLES
+  ==============================================
+*/
+#faq .hero {
+  background: linear-gradient(135deg, var(--color-info) 0%, var(--color-primary) 100%);
+}
+
+#faq .faq-content {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+.faq-item {
+  background: var(--color-background-light);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-4);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.faq-question {
+  padding: var(--spacing-4) var(--spacing-6);
+  background: white;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background var(--transition-fast);
+}
+
+.faq-question:hover {
+  background: var(--color-background-light);
+}
+
+.faq-answer {
+  padding: 0 var(--spacing-6) var(--spacing-4);
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+}
+
+/* 
+  ==============================================
+  LEGAL PAGES SPECIFIC STYLES
+  ==============================================
+*/
+#privacy-policy .hero,
+#terms-of-service .hero {
+  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-text-light) 100%);
+  min-height: 40vh;
+}
+
+#privacy-policy .policy-content,
+#terms-of-service .policy-content {
+  background: white;
+  padding: var(--spacing-16) 0;
+}
+
+.policy-content .container {
+  max-width: var(--container-md);
+}
+
+.policy-content h2 {
+  color: var(--color-primary);
+  margin-top: var(--spacing-12);
+  margin-bottom: var(--spacing-6);
+}
+
+.policy-content h3 {
+  color: var(--color-text);
+  margin-top: var(--spacing-8);
+  margin-bottom: var(--spacing-4);
+}
+
+.policy-content ul,
+.policy-content ol {
+  padding-left: var(--spacing-6);
+  margin-bottom: var(--spacing-4);
+}
+
+.policy-content li {
+  margin-bottom: var(--spacing-2);
+  line-height: var(--line-height-relaxed);
+}
+
+/* 
+  ==============================================
+  ENHANCED ANIMATIONS FOR SPECIFIC ELEMENTS
+  ==============================================
+*/
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.animate-on-scroll.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation for grids */
+.categories-grid > *,
+.products-grid > *,
+.services-grid > *,
+.team-grid > *,
+.clients-grid > * {
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.categories-grid > *:nth-child(1) { animation-delay: 0.1s; }
+.categories-grid > *:nth-child(2) { animation-delay: 0.2s; }
+.categories-grid > *:nth-child(3) { animation-delay: 0.3s; }
+.categories-grid > *:nth-child(4) { animation-delay: 0.4s; }
+.categories-grid > *:nth-child(5) { animation-delay: 0.5s; }
+.categories-grid > *:nth-child(6) { animation-delay: 0.6s; }
+
+/* Loading states for dynamic content */
+.main-loading {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--color-border);
+  border-top: 4px solid var(--color-primary);
+  border-radius: var(--radius-full);
+  animation: var(--animate-spin);
+}
+
+/* 
+  ==============================================
+  RESPONSIVE ENHANCEMENTS
+  ==============================================
+*/
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .hero p {
+    font-size: var(--font-size-lg);
+  }
+  
+  section {
+    padding: var(--spacing-8) 0;
+  }
+  
+  .process-steps,
+  .services-grid,
+  .values-grid,
+  .team-grid {
+    gap: var(--spacing-4);
+  }
+}
+
+/* Large screens optimization */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  .hero {
+    min-height: 90vh;
+  }
+  
+  .hero h1 {
+    font-size: var(--font-size-5xl);
+  }
+  
+  .categories-grid,
+  .products-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
