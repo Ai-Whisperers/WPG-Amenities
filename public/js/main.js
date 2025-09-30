@@ -116,7 +116,7 @@ const App = {
         if (!header) return;
         
         try {
-            const response = await fetch('/partials/header.html');
+            const response = await fetch(`${config.basePath}partials/header.html`);
             if (!response.ok) {
                 throw new Error(`Failed to load header: ${response.status}`);
             }
@@ -154,7 +154,7 @@ const App = {
         if (!footer) return;
         
         try {
-            const response = await fetch('/partials/footer.html');
+            const response = await fetch(`${config.basePath}partials/footer.html`);
             if (!response.ok) {
                 throw new Error(`Failed to load footer: ${response.status}`);
             }
