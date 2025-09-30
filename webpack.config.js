@@ -10,17 +10,22 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // HTML pages to process
 const htmlPages = [
-  'index', 'about', 'products', 'contact', 'customization', 
+  'index', 'about', 'products', 'contact', 'customization',
   'faq', 'portfolio', 'privacy-policy', 'terms-of-service'
 ];
 
+// Product pages to process
+const productPages = [
+  'bottles-caps', 'soaps-liquids', 'amenity-kits', 'miscellaneous'
+];
+
 // Generate HtmlWebpackPlugin instances for each page
-const htmlPlugins = htmlPages.map(page => {
-  return new HtmlWebpackPlugin({
+const htmlPlugins = [
+  ...htmlPages.map(page => new HtmlWebpackPlugin({
     template: `./public/${page}.html`,
     filename: `${page}.html`,
     chunks: ['main'],
-    inject: 'body', // Inject script tags before closing body tag
+    inject: 'body',
     scriptLoading: 'defer',
     minify: isProduction ? {
       collapseWhitespace: true,
@@ -28,8 +33,21 @@ const htmlPlugins = htmlPages.map(page => {
       removeRedundantAttributes: true,
       useShortDoctype: true
     } : false
-  });
-});
+  })),
+  ...productPages.map(page => new HtmlWebpackPlugin({
+    template: `./public/products/${page}.html`,
+    filename: `products/${page}.html`,
+    chunks: ['main'],
+    inject: 'body',
+    scriptLoading: 'defer',
+    minify: isProduction ? {
+      collapseWhitespace: true,
+      removeComments: true,
+      removeRedundantAttributes: true,
+      useShortDoctype: true
+    } : false
+  }))
+];
 
 module.exports = {
   mode: isProduction ? 'production' : 'development',

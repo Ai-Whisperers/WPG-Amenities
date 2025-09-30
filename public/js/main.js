@@ -249,7 +249,7 @@ const App = {
         if (socialLinks && footerData.social_links) {
             socialLinks.innerHTML = footerData.social_links.map(link =>
                 `<a href="${link.url}" target="_blank" rel="noopener" aria-label="${link.platform}">
-                    <img src="images/icons/${link.icon}" alt="${link.platform}">
+                    <img src="${config.basePath}images/icons/${link.icon}" alt="${link.platform}">
                 </a>`
             ).join('');
         }
