@@ -20,7 +20,8 @@ const htmlPlugins = htmlPages.map(page => {
     template: `./public/${page}.html`,
     filename: `${page}.html`,
     chunks: ['main'],
-    inject: false, // Don't auto-inject, preserve existing script tags
+    inject: 'body', // Inject script tags before closing body tag
+    scriptLoading: 'defer',
     minify: isProduction ? {
       collapseWhitespace: true,
       removeComments: true,
