@@ -181,11 +181,6 @@ module.exports = {
           noErrorOnMissing: true
         },
         {
-          from: 'public/products',
-          to: 'products',
-          noErrorOnMissing: true
-        },
-        {
           from: 'public/js/vendor',
           to: 'js/vendor',
           noErrorOnMissing: true
