@@ -7,6 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const isProduction = process.env.NODE_ENV === 'production';
+const publicPath = process.env.PUBLIC_PATH || '/WPG-Amenities/';
 
 // HTML pages to process
 const htmlPages = [
@@ -40,6 +41,7 @@ const htmlPlugins = [
     chunks: ['main'],
     inject: 'body',
     scriptLoading: 'defer',
+    publicPath: process.env.PUBLIC_PATH || '/WPG-Amenities/',
     minify: isProduction ? {
       collapseWhitespace: true,
       removeComments: true,
@@ -59,7 +61,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[contenthash:8].js',
-    publicPath: process.env.PUBLIC_PATH || '/WPG-Amenities/',
+    publicPath: publicPath,
     clean: true
   },
   
@@ -150,8 +152,28 @@ module.exports = {
   
   plugins: [
     new CleanWebpackPlugin(),
-    
+
     ...htmlPlugins,
+
+    // Plugin to fix absolute paths in product pages
+    {
+      apply: (compiler) => {
+        compiler.hooks.compilation.tap('FixProductPaths', (compilation) => {
+          HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
+            'FixProductPaths',
+            (data, cb) => {
+              // Only fix product pages
+              if (data.outputName.startsWith('products/')) {
+                // Replace /css/ with publicPath + css/
+                data.html = data.html.replace(/href="\/css\//g, `href="${publicPath}css/`);
+                data.html = data.html.replace(/src="\/js\//g, `src="${publicPath}js/`);
+              }
+              cb(null, data);
+            }
+          );
+        });
+      }
+    },
     
     new MiniCssExtractPlugin({
       filename: isProduction ? 'css/[name].[contenthash:8].css' : 'css/[name].css',
