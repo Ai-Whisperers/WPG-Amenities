@@ -134,13 +134,13 @@ const App = {
                 <nav class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a href="/" class="logo-link">WPG Amenities</a>
+                            <a href="${config.basePath}" class="logo-link">WPG Amenities</a>
                         </div>
                         <ul class="nav-links">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/products.html">Products</a></li>
-                            <li><a href="/about.html">About</a></li>
-                            <li><a href="/contact.html">Contact</a></li>
+                            <li><a href="${config.basePath}">Home</a></li>
+                            <li><a href="${config.basePath}products.html">Products</a></li>
+                            <li><a href="${config.basePath}about.html">About</a></li>
+                            <li><a href="${config.basePath}contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -189,19 +189,21 @@ const App = {
     // Populate header with dynamic content
     populateHeader() {
         const { site } = this.state.siteData;
-        
+
         // Set logo
         const logoLink = document.querySelector('.logo-link');
         if (logoLink && site.logo) {
+            logoLink.href = config.basePath;
             logoLink.innerHTML = `<img src="${site.logo}" alt="${site.title}" class="logo">`;
         }
-        
+
         // Set navigation links
         const navLinks = document.querySelector('.nav-links');
         if (navLinks && site.navigation) {
-            navLinks.innerHTML = site.navigation.map(link =>
-                `<li><a href="${link.url}" ${window.location.pathname === link.url ? 'class="active"' : ''}>${link.text}</a></li>`
-            ).join('');
+            navLinks.innerHTML = site.navigation.map(link => {
+                const href = link.url.startsWith('/') ? `${config.basePath}${link.url.substring(1)}` : link.url;
+                return `<li><a href="${href}" ${window.location.pathname === link.url ? 'class="active"' : ''}>${link.text}</a></li>`;
+            }).join('');
         }
     },
 
@@ -236,9 +238,10 @@ const App = {
         // Set quick links
         const quickLinks = document.querySelector('.quick-links ul');
         if (quickLinks && footerData.quick_links) {
-            quickLinks.innerHTML = footerData.quick_links.map(link =>
-                `<li><a href="${link.url}">${link.text}</a></li>`
-            ).join('');
+            quickLinks.innerHTML = footerData.quick_links.map(link => {
+                const href = link.url.startsWith('/') ? `${config.basePath}${link.url.substring(1)}` : link.url;
+                return `<li><a href="${href}">${link.text}</a></li>`;
+            }).join('');
         }
         
         // Set social links
@@ -260,9 +263,10 @@ const App = {
         // Set legal links
         const legalLinks = document.querySelector('.legal-links');
         if (legalLinks && footerData.legal_links) {
-            legalLinks.innerHTML = footerData.legal_links.map(link =>
-                `<a href="${link.url}">${link.text}</a>`
-            ).join(' | ');
+            legalLinks.innerHTML = footerData.legal_links.map(link => {
+                const href = link.url.startsWith('/') ? `${config.basePath}${link.url.substring(1)}` : link.url;
+                return `<a href="${href}">${link.text}</a>`;
+            }).join(' | ');
         }
     },
 
@@ -304,8 +308,8 @@ const App = {
                         <h1>${homepage.hero.headline.replace(/\\n/g, '<br>')}</h1>
                         <p>${homepage.hero.tagline}</p>
                         <div class="hero-buttons">
-                            <a href="${homepage.hero.primary_cta.url}" class="btn btn-primary">${homepage.hero.primary_cta.text}</a>
-                            <a href="${homepage.hero.secondary_cta.url}" class="btn btn-secondary">${homepage.hero.secondary_cta.text}</a>
+                            <a href="${homepage.hero.primary_cta.url.startsWith('/') ? config.basePath + homepage.hero.primary_cta.url.substring(1) : homepage.hero.primary_cta.url}" class="btn btn-primary">${homepage.hero.primary_cta.text}</a>
+                            <a href="${homepage.hero.secondary_cta.url.startsWith('/') ? config.basePath + homepage.hero.secondary_cta.url.substring(1) : homepage.hero.secondary_cta.url}" class="btn btn-secondary">${homepage.hero.secondary_cta.text}</a>
                         </div>
                     </div>
                 </section>
@@ -329,14 +333,17 @@ const App = {
     const main = document.querySelector('main');
             if (!main) return;
 
-            const categoryLinks = products.categories.map(cat => `
-                <a href="${cat.url}" class="category-link">
-                    <div class="service-card">
-                        <h3>${cat.title}</h3>
-                        <p>${cat.description}</p>
-                    </div>
-                </a>
-        `).join('');
+            const categoryLinks = products.categories.map(cat => {
+                const href = cat.url.startsWith('/') ? `${config.basePath}${cat.url.substring(1)}` : cat.url;
+                return `
+                    <a href="${href}" class="category-link">
+                        <div class="service-card">
+                            <h3>${cat.title}</h3>
+                            <p>${cat.description}</p>
+                        </div>
+                    </a>
+                `;
+            }).join('');
 
             main.innerHTML = `
                 <div class="container">
@@ -439,7 +446,7 @@ const App = {
             const ctaSection = App.createSection('cta', `
                 <div class="cta-content">
                     <h2>Ready to Create Your Custom Line?</h2>
-                    <a href="${customization.cta ? customization.cta.url : '/contact.html'}" class="btn btn-primary">
+                    <a href="${customization.cta ? (customization.cta.url.startsWith('/') ? config.basePath + customization.cta.url.substring(1) : customization.cta.url) : config.basePath + 'contact.html'}" class="btn btn-primary">
                         ${customization.cta ? customization.cta.text : 'Contact Us'}
                     </a>
         </div>
