@@ -8,11 +8,11 @@ class TemplateEngine {
     async init() {
         try {
             // Load page configuration
-            const configResponse = await fetch('/data/page-config.json');
+            const configResponse = await fetch(`${config.basePath}data/page-config.json`);
             this.pageConfig = await configResponse.json();
-            
+
             // Load base template
-            const templateResponse = await fetch('/template.html');
+            const templateResponse = await fetch(`${config.basePath}template.html`);
             this.baseTemplate = await templateResponse.text();
             
             return true;
