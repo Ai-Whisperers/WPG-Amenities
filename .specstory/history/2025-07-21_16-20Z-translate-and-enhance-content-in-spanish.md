@@ -38,7 +38,15 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
 
 ---
 
+<details><summary>Edit file: public/data/content.yml</summary>
+
+I will rewrite the entire content.yml file in Spanish with improved, professional writing appropriate for a hotel amenities company, adding more detailed and engaging content where needed.
+
+**Chunk 1**
+Lines added: 8, lines removed: 8
+
 ```diff
+@@ -1,23 +1,23 @@
 - # This file contains all the content for the new website.
 + # Este archivo contiene todo el contenido del nuevo sitio web.
   
@@ -72,7 +80,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
       social_links:
 ```
 
+**Chunk 2**
+Lines added: 97, lines removed: 97
+
 ```diff
+@@ -32,229 +32,229 @@
           icon: "google-plus.svg"
       utility_links:
 -       - text: "Privacy Policy"
@@ -401,7 +413,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
     all_clients:
 ```
 
+**Chunk 3**
+Lines added: 2, lines removed: 2
+
 ```diff
+@@ -277,8 +277,8 @@
         logo: "images/client-logos/leclubresorthotel.gif"
         url: "http://www.leclub.com.py/"
 -     - name: "Concepcion Palace Hotel"
@@ -414,7 +430,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
         url: "https://www.facebook.com/CrownePlazaAsu/info"
 ```
 
+**Chunk 4**
+Lines added: 2, lines removed: 2
+
 ```diff
+@@ -298,11 +298,11 @@
         logo: "images/client-logos/lagrappa.gif"
         url: "http://www.lagrappa.info/"
 -     - name: "Hotel & Casino Guarani Splendor"
@@ -430,7 +450,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
         url: "http://www.lamision.com.py/"
 ```
 
+**Chunk 5**
+Lines added: 1, lines removed: 1
+
 ```diff
+@@ -331,5 +331,5 @@
         logo: "images/client-logos/papillonhotelrestaurant.gif"
         url: "http://www.papillon.com.py/"
 -     - name: "Paseo del Arte Asuncion"
@@ -439,7 +463,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
         url: "https://www.facebook.com/paseodelarteasuncionparaguay"
 ```
 
+**Chunk 6**
+Lines added: 25, lines removed: 21
+
 ```diff
+@@ -357,53 +357,57 @@
   
   #--------------------------------
 - # About Us
@@ -520,7 +548,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
   
 ```
 
+**Chunk 7**
+Lines added: 4, lines removed: 4
+
 ```diff
+@@ -412,13 +416,13 @@
       established: "2005"
       location: "Asunción, Paraguay"
 -     specialization: "Hotel amenities and custom product lines"
@@ -540,7 +572,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
     contact_info:
 ```
 
+**Chunk 8**
+Lines added: 14, lines removed: 14
+
 ```diff
+@@ -429,38 +433,38 @@
       
     business_hours:
 -     monday_friday: "8:00 AM - 6:00 PM"
@@ -595,7 +631,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
           required: true
 ```
 
+**Chunk 9**
+Lines added: 2, lines removed: 2
+
 ```diff
+@@ -471,9 +475,9 @@
   
   #--------------------------------
 - # Footer
@@ -609,7 +649,11 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
     cel: "Cel. +595 (981) 472444"
 ```
 
+**Chunk 10**
+Lines added: 22, lines removed: 22
+
 ```diff
+@@ -490,44 +494,44 @@
         icon: "google-plus.svg"
     quick_links:
 -     - text: "Products"
@@ -677,6 +721,8 @@ I'll rewrite the content.yml file entirely in Spanish with improved, professiona
 +     title: "Nuestros Clientes Hoteleros | Portafolio WPG Amenities"
 +     description: "Confianza de hoteles líderes en Paraguay incluyendo Sheraton, Crowne Plaza y hoteles boutique. Vea nuestro portafolio de clientes."
 ```
+
+</details>
 
 ---
 
@@ -1041,178 +1087,178 @@ Read file: public/js/config.js
         
 | File | Line | Match |
 |------|------|-------|
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L7 | `logo: "images/layout/header/Header1055.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L25 | `icon: "facebook.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L28 | `icon: "twitter.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L31 | `icon: "google-plus.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L46 | `- image: "images/hero-slides/inicio01.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L48 | `- image: "images/hero-slides/inicio02.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L50 | `- image: "images/hero-slides/inicio03.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L52 | `- image: "images/hero-slides/inicio04.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L54 | `- image: "images/hero-slides/inicio05.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L56 | `- image: "images/hero-slides/inicio06.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L58 | `- image: "images/hero-slides/inicio07.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L79 | `image: "images/products/bottles-caps/botellas.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L85 | `image: "images/products/soaps/jabones.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L91 | `image: "images/products/kits/kits_dentalkit.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L97 | `image: "images/products/services/disenocreaciondelinea.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L105 | `icon: "experience.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L108 | `icon: "quality.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L111 | `icon: "custom.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L114 | `icon: "local.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L129 | `category_image: "images/products/bottles-caps/botellas.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L132 | `image: "images/products/bottles-caps/botellas_02.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L135 | `image: "images/products/bottles-caps/botellas_15.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L139 | `image: "images/products/bottles-caps/tapas_dorada.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L143 | `image: "images/products/bottles-caps/tapas_flatheadverde.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L150 | `category_image: "images/products/soaps/jabones.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L153 | `image: "images/products/soaps/jabon_jabondecoco.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L156 | `image: "images/products/soaps/jabon_pastilla25gr.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L163 | `category_image: "images/products/kits/kits_kitdebeleza.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L166 | `image: "images/products/kits/kits_dentalkit.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L169 | `image: "images/products/kits/kits_kitdebeleza.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L176 | `category_image: "images/products/liquids/liquidos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L179 | `image: "images/products/liquids/liquidos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L186 | `category_image: "images/products/packaging/cajasyenvoltorios.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L189 | `image: "images/products/packaging/cajasyenvoltorios.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L192 | `image: "images/products/packaging/stickersylogos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L200 | `hero_image: "images/products/services/disenocreaciondelinea.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L206 | `icon: "design.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L209 | `icon: "fragrance.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L212 | `icon: "branding.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L215 | `icon: "packaging.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L243 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L247 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L251 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L255 | `logo: "images/client-logos/hotelexcelsior.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L261 | `logo: "images/client-logos/altagraciahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L264 | `logo: "images/client-logos/altoesteaparthotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L267 | `logo: "images/client-logos/andaresdelaguahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L270 | `logo: "images/client-logos/hotelcasablanca.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L273 | `logo: "images/client-logos/hotelcecilia.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L276 | `logo: "images/client-logos/leclubresorthotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L279 | `logo: "images/client-logos/concepcionpalacehotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L282 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L285 | `logo: "images/client-logos/hotelexcelsior.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L288 | `logo: "images/client-logos/faronortesuites.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L291 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L294 | `logo: "images/client-logos/granadosparkhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L297 | `logo: "images/client-logos/lagrappa.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L300 | `logo: "images/client-logos/hotelcasinoguarani.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L303 | `logo: "images/client-logos/hasslerhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L306 | `logo: "images/client-logos/lamisionhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L309 | `logo: "images/client-logos/laslomascasahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L312 | `logo: "images/client-logos/luxsurhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L315 | `logo: "images/client-logos/lasmargaritashotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L318 | `logo: "images/client-logos/milordhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L321 | `logo: "images/client-logos/lemoustier.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L324 | `logo: "images/client-logos/olimpohotelsuites.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L327 | `logo: "images/client-logos/hotelpantanalinn.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L330 | `logo: "images/client-logos/papillonhotelrestaurant.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L333 | `logo: "images/client-logos/paseodelarteasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L336 | `logo: "images/client-logos/laquintaturismorural.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L339 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L342 | `logo: "images/client-logos/hoteldelsur.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L345 | `logo: "images/client-logos/tacuruhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L348 | `logo: "images/client-logos/delatrinidadhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L351 | `logo: "images/client-logos/villamorrasuiteshotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L354 | `logo: "images/client-logos/hotelwestfalenhaus.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L391 | `image: "team/sonia-weiss.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L395 | `image: "team/carlos-weiss.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L399 | `image: "team/dolly-melgarejo.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L403 | `image: "team/giselda.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L407 | `image: "team/franlu-gauto.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L411 | `image: "team/alexander-pol.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L487 | `icon: "facebook.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L490 | `icon: "twitter.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L493 | `icon: "google-plus.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L516 | `og_image: "images/hero-slides/inicio01.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L7 | `logo: "images/layout/header/Header1055.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L25 | `icon: "facebook.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L28 | `icon: "twitter.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L31 | `icon: "google-plus.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L46 | `- image: "images/hero-slides/inicio01.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L48 | `- image: "images/hero-slides/inicio02.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L50 | `- image: "images/hero-slides/inicio03.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L52 | `- image: "images/hero-slides/inicio04.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L54 | `- image: "images/hero-slides/inicio05.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L56 | `- image: "images/hero-slides/inicio06.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L58 | `- image: "images/hero-slides/inicio07.png"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L79 | `image: "images/products/bottles-caps/botellas.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L85 | `image: "images/products/soaps/jabones.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L91 | `image: "images/products/kits/kits_dentalkit.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L97 | `image: "images/products/services/disenocreaciondelinea.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L105 | `icon: "experience.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L108 | `icon: "quality.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L111 | `icon: "custom.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L114 | `icon: "local.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L129 | `category_image: "images/products/bottles-caps/botellas.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L132 | `image: "images/products/bottles-caps/botellas_02.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L135 | `image: "images/products/bottles-caps/botellas_15.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L139 | `image: "images/products/bottles-caps/tapas_dorada.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L143 | `image: "images/products/bottles-caps/tapas_flatheadverde.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L150 | `category_image: "images/products/soaps/jabones.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L153 | `image: "images/products/soaps/jabon_jabondecoco.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L156 | `image: "images/products/soaps/jabon_pastilla25gr.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L163 | `category_image: "images/products/kits/kits_kitdebeleza.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L166 | `image: "images/products/kits/kits_dentalkit.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L169 | `image: "images/products/kits/kits_kitdebeleza.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L176 | `category_image: "images/products/liquids/liquidos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L179 | `image: "images/products/liquids/liquidos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L186 | `category_image: "images/products/packaging/cajasyenvoltorios.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L189 | `image: "images/products/packaging/cajasyenvoltorios.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L192 | `image: "images/products/packaging/stickersylogos.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L200 | `hero_image: "images/products/services/disenocreaciondelinea.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L206 | `icon: "design.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L209 | `icon: "fragrance.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L212 | `icon: "branding.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L215 | `icon: "packaging.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L243 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L247 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L251 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L255 | `logo: "images/client-logos/hotelexcelsior.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L261 | `logo: "images/client-logos/altagraciahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L264 | `logo: "images/client-logos/altoesteaparthotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L267 | `logo: "images/client-logos/andaresdelaguahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L270 | `logo: "images/client-logos/hotelcasablanca.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L273 | `logo: "images/client-logos/hotelcecilia.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L276 | `logo: "images/client-logos/leclubresorthotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L279 | `logo: "images/client-logos/concepcionpalacehotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L282 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L285 | `logo: "images/client-logos/hotelexcelsior.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L288 | `logo: "images/client-logos/faronortesuites.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L291 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L294 | `logo: "images/client-logos/granadosparkhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L297 | `logo: "images/client-logos/lagrappa.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L300 | `logo: "images/client-logos/hotelcasinoguarani.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L303 | `logo: "images/client-logos/hasslerhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L306 | `logo: "images/client-logos/lamisionhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L309 | `logo: "images/client-logos/laslomascasahotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L312 | `logo: "images/client-logos/luxsurhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L315 | `logo: "images/client-logos/lasmargaritashotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L318 | `logo: "images/client-logos/milordhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L321 | `logo: "images/client-logos/lemoustier.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L324 | `logo: "images/client-logos/olimpohotelsuites.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L327 | `logo: "images/client-logos/hotelpantanalinn.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L330 | `logo: "images/client-logos/papillonhotelrestaurant.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L333 | `logo: "images/client-logos/paseodelarteasuncion.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L336 | `logo: "images/client-logos/laquintaturismorural.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L339 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L342 | `logo: "images/client-logos/hoteldelsur.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L345 | `logo: "images/client-logos/tacuruhotelboutique.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L348 | `logo: "images/client-logos/delatrinidadhotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L351 | `logo: "images/client-logos/villamorrasuiteshotel.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L354 | `logo: "images/client-logos/hotelwestfalenhaus.gif"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L391 | `image: "team/sonia-weiss.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L395 | `image: "team/carlos-weiss.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L399 | `image: "team/dolly-melgarejo.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L403 | `image: "team/giselda.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L407 | `image: "team/franlu-gauto.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L411 | `image: "team/alexander-pol.jpg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L487 | `icon: "facebook.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L490 | `icon: "twitter.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L493 | `icon: "google-plus.svg"` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L516 | `og_image: "images/hero-slides/inicio01.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L8 | `logo: "images/layout/header/Header1055.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L26 | `icon: "facebook.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L29 | `icon: "twitter.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L32 | `icon: "google-plus.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L47 | `- image: "images/hero-slides/inicio01.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L49 | `- image: "images/hero-slides/inicio02.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L51 | `- image: "images/hero-slides/inicio03.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L53 | `- image: "images/hero-slides/inicio04.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L55 | `- image: "images/hero-slides/inicio05.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L57 | `- image: "images/hero-slides/inicio06.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L59 | `- image: "images/hero-slides/inicio07.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L80 | `image: "images/products/bottles-caps/botellas.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L86 | `image: "images/products/soaps/jabones.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L92 | `image: "images/products/kits/kits_dentalkit.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L98 | `image: "images/products/services/disenocreaciondelinea.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L106 | `icon: "experience.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L109 | `icon: "quality.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L112 | `icon: "custom.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L115 | `icon: "local.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L130 | `category_image: "images/products/bottles-caps/botellas.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L133 | `image: "images/products/bottles-caps/botellas_02.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L136 | `image: "images/products/bottles-caps/botellas_15.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L140 | `image: "images/products/bottles-caps/tapas_dorada.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L144 | `image: "images/products/bottles-caps/tapas_flatheadverde.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L151 | `category_image: "images/products/soaps/jabones.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L154 | `image: "images/products/soaps/jabon_jabondecoco.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L157 | `image: "images/products/soaps/jabon_pastilla25gr.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L164 | `category_image: "images/products/kits/kits_kitdebeleza.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L167 | `image: "images/products/kits/kits_dentalkit.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L170 | `image: "images/products/kits/kits_kitdebeleza.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L177 | `category_image: "images/products/liquids/liquidos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L180 | `image: "images/products/liquids/liquidos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L187 | `category_image: "images/products/packaging/cajasyenvoltorios.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L190 | `image: "images/products/packaging/cajasyenvoltorios.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L193 | `image: "images/products/packaging/stickersylogos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L201 | `hero_image: "images/products/services/disenocreaciondelinea.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L207 | `icon: "design.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L210 | `icon: "fragrance.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L213 | `icon: "branding.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L216 | `icon: "packaging.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L244 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L248 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L252 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L256 | `logo: "images/client-logos/hotelexcelsior.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L262 | `logo: "images/client-logos/altagraciahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L265 | `logo: "images/client-logos/altoesteaparthotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L268 | `logo: "images/client-logos/andaresdelaguahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L271 | `logo: "images/client-logos/hotelcasablanca.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L274 | `logo: "images/client-logos/hotelcecilia.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L277 | `logo: "images/client-logos/leclubresorthotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L280 | `logo: "images/client-logos/concepcionpalacehotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L283 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L286 | `logo: "images/client-logos/hotelexcelsior.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L289 | `logo: "images/client-logos/faronortesuites.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L292 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L295 | `logo: "images/client-logos/granadosparkhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L298 | `logo: "images/client-logos/lagrappa.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L301 | `logo: "images/client-logos/hotelcasinoguarani.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L304 | `logo: "images/client-logos/hasslerhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L307 | `logo: "images/client-logos/lamisionhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L310 | `logo: "images/client-logos/laslomascasahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L313 | `logo: "images/client-logos/luxsurhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L316 | `logo: "images/client-logos/lasmargaritashotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L319 | `logo: "images/client-logos/milordhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L322 | `logo: "images/client-logos/lemoustier.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L325 | `logo: "images/client-logos/olimpohotelsuites.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L328 | `logo: "images/client-logos/hotelpantanalinn.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L331 | `logo: "images/client-logos/papillonhotelrestaurant.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L334 | `logo: "images/client-logos/paseodelarteasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L337 | `logo: "images/client-logos/laquintaturismorural.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L340 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L343 | `logo: "images/client-logos/hoteldelsur.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L346 | `logo: "images/client-logos/tacuruhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L349 | `logo: "images/client-logos/delatrinidadhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L352 | `logo: "images/client-logos/villamorrasuiteshotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L355 | `logo: "images/client-logos/hotelwestfalenhaus.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L392 | `image: "team/sonia-weiss.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L396 | `image: "team/carlos-weiss.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L400 | `image: "team/dolly-melgarejo.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L404 | `image: "team/giselda.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L408 | `image: "team/franlu-gauto.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L412 | `image: "team/alexander-pol.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L488 | `icon: "facebook.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L491 | `icon: "twitter.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L494 | `icon: "google-plus.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L517 | `og_image: "images/hero-slides/inicio01.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L8 | `logo: "images/layout/header/Header1055.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L26 | `icon: "facebook.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L29 | `icon: "twitter.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L32 | `icon: "google-plus.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L47 | `- image: "images/hero-slides/inicio01.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L49 | `- image: "images/hero-slides/inicio02.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L51 | `- image: "images/hero-slides/inicio03.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L53 | `- image: "images/hero-slides/inicio04.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L55 | `- image: "images/hero-slides/inicio05.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L57 | `- image: "images/hero-slides/inicio06.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L59 | `- image: "images/hero-slides/inicio07.png"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L80 | `image: "images/products/bottles-caps/botellas.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L86 | `image: "images/products/soaps/jabones.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L92 | `image: "images/products/kits/kits_dentalkit.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L98 | `image: "images/products/services/disenocreaciondelinea.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L106 | `icon: "experience.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L109 | `icon: "quality.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L112 | `icon: "custom.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L115 | `icon: "local.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L130 | `category_image: "images/products/bottles-caps/botellas.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L133 | `image: "images/products/bottles-caps/botellas_02.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L136 | `image: "images/products/bottles-caps/botellas_15.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L140 | `image: "images/products/bottles-caps/tapas_dorada.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L144 | `image: "images/products/bottles-caps/tapas_flatheadverde.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L151 | `category_image: "images/products/soaps/jabones.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L154 | `image: "images/products/soaps/jabon_jabondecoco.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L157 | `image: "images/products/soaps/jabon_pastilla25gr.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L164 | `category_image: "images/products/kits/kits_kitdebeleza.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L167 | `image: "images/products/kits/kits_dentalkit.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L170 | `image: "images/products/kits/kits_kitdebeleza.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L177 | `category_image: "images/products/liquids/liquidos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L180 | `image: "images/products/liquids/liquidos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L187 | `category_image: "images/products/packaging/cajasyenvoltorios.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L190 | `image: "images/products/packaging/cajasyenvoltorios.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L193 | `image: "images/products/packaging/stickersylogos.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L201 | `hero_image: "images/products/services/disenocreaciondelinea.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L207 | `icon: "design.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L210 | `icon: "fragrance.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L213 | `icon: "branding.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L216 | `icon: "packaging.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L244 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L248 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L252 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L256 | `logo: "images/client-logos/hotelexcelsior.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L262 | `logo: "images/client-logos/altagraciahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L265 | `logo: "images/client-logos/altoesteaparthotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L268 | `logo: "images/client-logos/andaresdelaguahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L271 | `logo: "images/client-logos/hotelcasablanca.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L274 | `logo: "images/client-logos/hotelcecilia.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L277 | `logo: "images/client-logos/leclubresorthotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L280 | `logo: "images/client-logos/concepcionpalacehotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L283 | `logo: "images/client-logos/crowneplazaasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L286 | `logo: "images/client-logos/hotelexcelsior.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L289 | `logo: "images/client-logos/faronortesuites.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L292 | `logo: "images/client-logos/granhoteldeparaguay.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L295 | `logo: "images/client-logos/granadosparkhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L298 | `logo: "images/client-logos/lagrappa.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L301 | `logo: "images/client-logos/hotelcasinoguarani.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L304 | `logo: "images/client-logos/hasslerhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L307 | `logo: "images/client-logos/lamisionhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L310 | `logo: "images/client-logos/laslomascasahotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L313 | `logo: "images/client-logos/luxsurhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L316 | `logo: "images/client-logos/lasmargaritashotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L319 | `logo: "images/client-logos/milordhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L322 | `logo: "images/client-logos/lemoustier.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L325 | `logo: "images/client-logos/olimpohotelsuites.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L328 | `logo: "images/client-logos/hotelpantanalinn.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L331 | `logo: "images/client-logos/papillonhotelrestaurant.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L334 | `logo: "images/client-logos/paseodelarteasuncion.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L337 | `logo: "images/client-logos/laquintaturismorural.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L340 | `logo: "images/client-logos/sheratonhotelsresorts.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L343 | `logo: "images/client-logos/hoteldelsur.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L346 | `logo: "images/client-logos/tacuruhotelboutique.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L349 | `logo: "images/client-logos/delatrinidadhotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L352 | `logo: "images/client-logos/villamorrasuiteshotel.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L355 | `logo: "images/client-logos/hotelwestfalenhaus.gif"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L392 | `image: "team/sonia-weiss.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L396 | `image: "team/carlos-weiss.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L400 | `image: "team/dolly-melgarejo.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L404 | `image: "team/giselda.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L408 | `image: "team/franlu-gauto.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L412 | `image: "team/alexander-pol.jpg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L488 | `icon: "facebook.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L491 | `icon: "twitter.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L494 | `icon: "google-plus.svg"` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/public/data/content.yml` | L517 | `og_image: "images/hero-slides/inicio01.png"` |
 
 </details>
 
@@ -1223,106 +1269,106 @@ Read file: public/js/config.js
         
 | File | Line | Match |
 |------|------|-------|
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L244 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L262 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L316 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L317 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L318 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L328 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L330 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L420 | `<td class="amenities"><img src="/images/amenities/bottom.left.smaller.jpg" border="0" /></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L438 | `<td class="amenities"><img src="/images/amenities/bottom.middle.smaller.jpg" border="0" /></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L456 | `<td class="amenities"><img src="/images/amenities/bottom.right.smaller.jpg" border="0" /></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L558 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio01.png" alt="inicio01" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L561 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio02.png" alt="inicio02" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L564 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio03.png" alt="inicio03" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L567 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio04.png" alt="inicio04" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L570 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio05.png" alt="inicio05" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L573 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio06.png" alt="inicio06" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L576 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio07.png" alt="inicio07" style="height:470px;width:446px" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L242 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L260 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L314 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L315 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L316 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L326 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L328 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L392 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/botellas.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L412 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/liquidos.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L434 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/stickersylogos.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L454 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/cajasyenvoltorios.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L476 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/jabones.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L496 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/disenocreaciondelinea.gif"></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L242 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L260 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L314 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L315 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L316 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L326 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L328 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L246 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L264 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L318 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L319 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L320 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L330 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L332 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L242 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L260 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L314 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L315 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L316 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L326 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L328 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L387 | `<td class="amenities"><a href="http://altagraciahotel.com.py/" alt="Alta Gracia Hotel" target="_blank"><img src="/images/amenities/clientes/altagraciahotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L388 | `<td class="amenities"><a href="http://altoeste.com/" alt="Alto Este Hotel" target="_blank"><img src="/images/amenities/clientes/altoesteaparthotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L389 | `<td class="amenities"><a href="http://www.andaresdelagua.com.py/" alt="Andares del Agua Hotel" target="_blank"><img src="/images/amenities/clientes/andaresdelaguahotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L390 | `<td class="amenities"><a href="http://www.hotelcasablanca.com.py/" alt="Hotel Casa Blanca" target="_blank"><img src="/images/amenities/clientes/hotelcasablanca.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L393 | `<td class="amenities"><a href="http://www.hotelcecilia.com.py/hotel-overview.html" alt="Hotel Cecilia" target="_blank"><img src="/images/amenities/clientes/hotelcecilia.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L394 | `<td class="amenities"><a href="http://www.leclub.com.py/" alt="Le Club Resort Hotel" target="_blank"><img src="/images/amenities/clientes/leclubresorthotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L395 | `<td class="amenities"><a href="http://www.concepcionpalace.com.py/" alt="Concepcion Palace Hotel" target="_blank"><img src="/images/amenities/clientes/concepcionpalacehotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L396 | `<td><a href="https://www.facebook.com/CrownePlazaAsu/info" alt="Crowne Plaza Asuncion" target="_blank"><img src="/images/amenities/clientes/crowneplazaasuncion.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L399 | `<td class="amenities"><a href="http://www.excelsior.com.py/" alt="Hotel Excelsior" target="_blank"><img src="/images/amenities/clientes/hotelexcelsior.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L400 | `<td class="amenities"><a href="http://www.faronortesuites.com.py/" alt="Faro Norte Suites" target="_blank"><img src="/images/amenities/clientes/faronortesuites.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L401 | `<td><a href="http://www.granhoteldelparaguay.com.py/" alt="Gran Hotel del Paraguay" target="_blank"><img src="/images/amenities/clientes/granhoteldeparaguay.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L402 | `<td><a href="http://www.granadospark.com.py/" alt="Granados Park Hotel" target="_blank"><img src="/images/amenities/clientes/granadosparkhotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L405 | `⟪ 99 characters skipped ⟫to Paraguay" target="_blank"><img src="/images/amenities/clientes/lagrappa.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L406 | `<td class="amenities"><a href="http://www.guaraniesplendor.com/" alt="Hotel & Casino Guarani Splendor" target="_blank"><img src="/images/amenities/clientes/hotelcasinoguarani.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L407 | `⟪ 98 characters skipped ⟫el Boutique" target="_blank"><img src="/images/amenities/clientes/hasslerhotelboutique.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L408 | `<td class="amenities"><a href="http://www.lamision.com.py/" alt="La Mission Hotel Boutique" target="_blank"><img src="/images/amenities/clientes/lamisionhotelboutique.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L411 | `<td class="amenities"><a href="http://www.laslomascasahotel.com/" alt="Las Lomas Casa Hotel" target="_blank"><img src="/images/amenities/clientes/laslomascasahotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L412 | `⟪ 150 characters skipped ⟫tel Lux Sur" target="_blank"><img src="/images/amenities/clientes/luxsurhotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L413 | `<td class="amenities"><a href="http://www.lasmargaritas.com.py/" alt="Las Margaritas Hotel" target="_blank"><img src="/images/amenities/clientes/lasmargaritashotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L414 | `<td class="amenities"><a href="http://www.milord.com.py/" alt="Milord Hotel Boutique" target="_blank"><img src="/images/amenities/clientes/milordhotelboutique.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L417 | `<td class="amenities"><a href="http://www.lemoustier.org/" alt="Le Moustier" target="_blank"><img src="/images/amenities/clientes/lemoustier.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L418 | `<td class="amenities"><a href="http://www.olimpohotel.com.py/" alt="Olimpo Hotel & Suites" target="_blank"><img src="/images/amenities/clientes/olimpohotelsuites.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L419 | `<td class="amenities"><a href="http://www.hotelpantanalinn.com.py/" alt="Hotel Pantanal Inn" target="_blank"><img src="/images/amenities/clientes/hotelpantanalinn.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L420 | `<td class="amenities"><a href="http://www.papillon.com.py/" alt="Papillon Hotel Restaurant" target="_blank"><img src="/images/amenities/clientes/papillonhotelrestaurant.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L423 | `⟪ 107 characters skipped ⟫te Asuncion" target="_blank"><img src="/images/amenities/clientes/paseodelarteasuncion.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L424 | `<td class="amenities"><a href="http://www.laquinta.com.py/" alt="La Quinta Turismo Rural" target="_blank"><img src="/images/amenities/clientes/laquintaturismorural.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L425 | `<td class="amenities"><a href="http://www.sheraton-asuncion.com.py/" alt="Sheraton Hotels & Resorts" target="_blank"><img src="/images/amenities/clientes/sheratonhotelsresorts.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L426 | `⟪ 98 characters skipped ⟫ur Paraguay" target="_blank"><img src="/images/amenities/clientes/hoteldelsur.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L429 | `<td class="amenities"><a href="http://tacuruhotel.com/" alt="Tacuru Hotel" target="_blank"><img src="/images/amenities/clientes/tacuruhotelboutique.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L430 | `<td class="amenities"><a href="http://www.hoteldelatrinidad.com.py/hotel.php" alt="Hotel de la Trinidad" target="_blank"><img src="/images/amenities/clientes/delatrinidadhotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L431 | `<td class="amenities"><a href="http://villamorrasuites.com.py/" alt="Villa Morra Suites" target="_blank"><img src="/images/amenities/clientes/villamorrasuiteshotel.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L432 | `<td class="amenities"><a href="http://www.westfalenhaus.com.py/" alt="Hotel Westfalenhaus" target="_blank"><img src="/images/amenities/clientes/hotelwestfalenhaus.gif"></a></td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L242 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L260 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L314 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L315 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L316 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L326 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L328 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L387 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbazul.gif" border="0" alt="Bolb Azul" /><br />TB-A</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L388 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbblanco.gif" border="0" alt="Bolb Blanco" /><br />TB-B</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L389 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbdorado.gif" border="0" alt="Bolb Dorado" /><br />TB-D</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L390 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbverde.gif" border="0" alt="Bolb Verde" /><br />TB-V</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L393 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicoazul.gif" border="0" alt="Cilindrico chico Azul" /><br />TCC-A</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L394 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicopurpura.gif" border="0" alt="Cilindrico chico Purpura" /><br />TCC-L</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L395 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicorojo.gif" border="0" alt="Cilindrico chico Rojo" /><br />TCC-R</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L396 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicotransparente.gif" border="0" alt="Cilindrico chico Transparente" /><br />TCC-T</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L399 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricograndebordeau.gif" border="0" alt="Cilindrico grande Bordeau" /><br />TCG-Br</td>` |
-| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L400 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricograndetransparente.gif" border="0" alt="Cilindrico grande Transparente" /><br />TCG-T</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L245 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L263 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L317 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L318 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L319 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L329 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L331 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L421 | `<td class="amenities"><img src="/images/amenities/bottom.left.smaller.jpg" border="0" /></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L439 | `<td class="amenities"><img src="/images/amenities/bottom.middle.smaller.jpg" border="0" /></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L457 | `<td class="amenities"><img src="/images/amenities/bottom.right.smaller.jpg" border="0" /></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L559 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio01.png" alt="inicio01" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L562 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio02.png" alt="inicio02" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L565 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio03.png" alt="inicio03" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L568 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio04.png" alt="inicio04" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L571 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio05.png" alt="inicio05" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L574 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio06.png" alt="inicio06" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/index.html` | L577 | `<img src="http://amenities.wpgsoftware.nl/images/amenities/rotacion/inicio/inicio07.png" alt="inicio07" style="height:470px;width:446px" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L243 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L261 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L315 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L316 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L317 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L327 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L329 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L393 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/botellas.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L413 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/liquidos.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L435 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/stickersylogos.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L455 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/cajasyenvoltorios.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L477 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/jabones.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_productos-servicios.html` | L497 | `<td class="amenities" rowspan="2"><img src="/images/amenities/productos/disenocreaciondelinea.gif"></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L243 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L261 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L315 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L316 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L317 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L327 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_nuestro-personal.html` | L329 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L247 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L265 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L319 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L320 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L321 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L331 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_contacto.html` | L333 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L243 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L261 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L315 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L316 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L317 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L327 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L329 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L388 | `<td class="amenities"><a href="http://altagraciahotel.com.py/" alt="Alta Gracia Hotel" target="_blank"><img src="/images/amenities/clientes/altagraciahotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L389 | `<td class="amenities"><a href="http://altoeste.com/" alt="Alto Este Hotel" target="_blank"><img src="/images/amenities/clientes/altoesteaparthotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L390 | `<td class="amenities"><a href="http://www.andaresdelagua.com.py/" alt="Andares del Agua Hotel" target="_blank"><img src="/images/amenities/clientes/andaresdelaguahotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L391 | `<td class="amenities"><a href="http://www.hotelcasablanca.com.py/" alt="Hotel Casa Blanca" target="_blank"><img src="/images/amenities/clientes/hotelcasablanca.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L394 | `<td class="amenities"><a href="http://www.hotelcecilia.com.py/hotel-overview.html" alt="Hotel Cecilia" target="_blank"><img src="/images/amenities/clientes/hotelcecilia.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L395 | `<td class="amenities"><a href="http://www.leclub.com.py/" alt="Le Club Resort Hotel" target="_blank"><img src="/images/amenities/clientes/leclubresorthotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L396 | `<td class="amenities"><a href="http://www.concepcionpalace.com.py/" alt="Concepcion Palace Hotel" target="_blank"><img src="/images/amenities/clientes/concepcionpalacehotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L397 | `<td><a href="https://www.facebook.com/CrownePlazaAsu/info" alt="Crowne Plaza Asuncion" target="_blank"><img src="/images/amenities/clientes/crowneplazaasuncion.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L400 | `<td class="amenities"><a href="http://www.excelsior.com.py/" alt="Hotel Excelsior" target="_blank"><img src="/images/amenities/clientes/hotelexcelsior.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L401 | `<td class="amenities"><a href="http://www.faronortesuites.com.py/" alt="Faro Norte Suites" target="_blank"><img src="/images/amenities/clientes/faronortesuites.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L402 | `<td><a href="http://www.granhoteldelparaguay.com.py/" alt="Gran Hotel del Paraguay" target="_blank"><img src="/images/amenities/clientes/granhoteldeparaguay.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L403 | `<td><a href="http://www.granadospark.com.py/" alt="Granados Park Hotel" target="_blank"><img src="/images/amenities/clientes/granadosparkhotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L406 | `⟪ 99 characters skipped ⟫to Paraguay" target="_blank"><img src="/images/amenities/clientes/lagrappa.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L407 | `<td class="amenities"><a href="http://www.guaraniesplendor.com/" alt="Hotel & Casino Guarani Splendor" target="_blank"><img src="/images/amenities/clientes/hotelcasinoguarani.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L408 | `⟪ 98 characters skipped ⟫el Boutique" target="_blank"><img src="/images/amenities/clientes/hasslerhotelboutique.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L409 | `<td class="amenities"><a href="http://www.lamision.com.py/" alt="La Mission Hotel Boutique" target="_blank"><img src="/images/amenities/clientes/lamisionhotelboutique.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L412 | `<td class="amenities"><a href="http://www.laslomascasahotel.com/" alt="Las Lomas Casa Hotel" target="_blank"><img src="/images/amenities/clientes/laslomascasahotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L413 | `⟪ 150 characters skipped ⟫tel Lux Sur" target="_blank"><img src="/images/amenities/clientes/luxsurhotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L414 | `<td class="amenities"><a href="http://www.lasmargaritas.com.py/" alt="Las Margaritas Hotel" target="_blank"><img src="/images/amenities/clientes/lasmargaritashotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L415 | `<td class="amenities"><a href="http://www.milord.com.py/" alt="Milord Hotel Boutique" target="_blank"><img src="/images/amenities/clientes/milordhotelboutique.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L418 | `<td class="amenities"><a href="http://www.lemoustier.org/" alt="Le Moustier" target="_blank"><img src="/images/amenities/clientes/lemoustier.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L419 | `<td class="amenities"><a href="http://www.olimpohotel.com.py/" alt="Olimpo Hotel & Suites" target="_blank"><img src="/images/amenities/clientes/olimpohotelsuites.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L420 | `<td class="amenities"><a href="http://www.hotelpantanalinn.com.py/" alt="Hotel Pantanal Inn" target="_blank"><img src="/images/amenities/clientes/hotelpantanalinn.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L421 | `<td class="amenities"><a href="http://www.papillon.com.py/" alt="Papillon Hotel Restaurant" target="_blank"><img src="/images/amenities/clientes/papillonhotelrestaurant.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L424 | `⟪ 107 characters skipped ⟫te Asuncion" target="_blank"><img src="/images/amenities/clientes/paseodelarteasuncion.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L425 | `<td class="amenities"><a href="http://www.laquinta.com.py/" alt="La Quinta Turismo Rural" target="_blank"><img src="/images/amenities/clientes/laquintaturismorural.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L426 | `<td class="amenities"><a href="http://www.sheraton-asuncion.com.py/" alt="Sheraton Hotels & Resorts" target="_blank"><img src="/images/amenities/clientes/sheratonhotelsresorts.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L427 | `⟪ 98 characters skipped ⟫ur Paraguay" target="_blank"><img src="/images/amenities/clientes/hoteldelsur.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L430 | `<td class="amenities"><a href="http://tacuruhotel.com/" alt="Tacuru Hotel" target="_blank"><img src="/images/amenities/clientes/tacuruhotelboutique.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L431 | `<td class="amenities"><a href="http://www.hoteldelatrinidad.com.py/hotel.php" alt="Hotel de la Trinidad" target="_blank"><img src="/images/amenities/clientes/delatrinidadhotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L432 | `<td class="amenities"><a href="http://villamorrasuites.com.py/" alt="Villa Morra Suites" target="_blank"><img src="/images/amenities/clientes/villamorrasuiteshotel.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_clientes.html` | L433 | `<td class="amenities"><a href="http://www.westfalenhaus.com.py/" alt="Hotel Westfalenhaus" target="_blank"><img src="/images/amenities/clientes/hotelwestfalenhaus.gif"></a></td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L243 | `<img src="/templates/animalbusiness-fjt/images/amenities/Header1055.gif" alt="W.P.G. S.R.L. - Amenities" />` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L261 | `<a id="menu103" href="/index.php/catalogo" ><img src='http://amenities.wpgsoftware.nl/images/swmenufree/arrows/whiteleft-on.gif' align='right' style='position:relative;left:13px;top:0px;' alt=''  border='0' />Catálogo</a>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L315 | `TransMenu.spacerGif = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/x.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L316 | `TransMenu.dingbatOn = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L317 | `TransMenu.dingbatOff = "http://amenities.wpgsoftware.nl/images/swmenufree/arrows/blackleft-on.gif";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L327 | `TransMenu.shadowPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/grey-40.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L329 | `TransMenu.backgroundPng = "http://amenities.wpgsoftware.nl//modules/mod_swmenufree/images/transmenu/white-90.png";` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L388 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbazul.gif" border="0" alt="Bolb Azul" /><br />TB-A</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L389 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbblanco.gif" border="0" alt="Bolb Blanco" /><br />TB-B</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L390 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbdorado.gif" border="0" alt="Bolb Dorado" /><br />TB-D</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L391 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_bolbverde.gif" border="0" alt="Bolb Verde" /><br />TB-V</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L394 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicoazul.gif" border="0" alt="Cilindrico chico Azul" /><br />TCC-A</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L395 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicopurpura.gif" border="0" alt="Cilindrico chico Purpura" /><br />TCC-L</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L396 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicorojo.gif" border="0" alt="Cilindrico chico Rojo" /><br />TCC-R</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L397 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricochicotransparente.gif" border="0" alt="Cilindrico chico Transparente" /><br />TCC-T</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L400 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricograndebordeau.gif" border="0" alt="Cilindrico grande Bordeau" /><br />TCG-Br</td>` |
+| `file:///c%3A/Users/kyrian/Documents/wpg%20page/archive/downloaded_website/downloaded_website_index.php_catalogo_tapas.html` | L401 | `<td class="amenitiesborder"><img src="/images/amenities/productos/tapas_cilindricograndetransparente.gif" border="0" alt="Cilindrico grande Transparente" /><br />TCG-T</td>` |
 
 </details>
 
@@ -1336,7 +1382,15 @@ Ahora voy a crear un archivo markdown completo con el análisis de todas las im�
 
 ---
 
+<details><summary>Edit file: analisis-imagenes.md</summary>
+
+Crear un análisis completo de todas las imágenes del sitio web, incluyendo dónde se usan, qué representan y recomendaciones para modernización
+
+**Chunk 1**
+Lines added: 289, lines removed: 1
+
 ```diff
+@@ -1,1 +1,289 @@
 - 
 + # Análisis Completo de Imágenes - WPG Amenities Website
 + 
@@ -1629,6 +1683,8 @@ Ahora voy a crear un archivo markdown completo con el análisis de todas las im�
 + La inversión en modernización visual es fundamental para posicionar a WPG Amenities como líder del mercado paraguayo y competir efectivamente con empresas internacionales del sector. 
 ```
 
+</details>
+
 ---
 
 <think><details><summary>Thought Process</summary>El usuario ha pedido un análisis completo de todas las imágenes del sitio web, y he creado un documento muy detallado que incluye:
@@ -1728,7 +1784,15 @@ Voy a crear prompts detallados para cada imagen que necesita ser actualizada o c
 
 ---
 
+<details><summary>Edit file: prompts-imagenes-detallados.md</summary>
+
+Crear prompts detallados para cada imagen que necesita ser actualizada o creada, especificando estilo, colores, composición y características técnicas
+
+**Chunk 1**
+Lines added: 824, lines removed: 1
+
 ```diff
+@@ -1,1 +1,824 @@
 - 
 + # Prompts Detallados para Actualización de Imágenes - WPG Amenities
 + 
@@ -2556,6 +2620,8 @@ Voy a crear prompts detallados para cada imagen que necesita ser actualizada o c
 + - Diferenciación competitiva clara 
 ```
 
+</details>
+
 ---
 
 <think><details><summary>Thought Process</summary>Perfecto, he creado un documento extremadamente detallado con prompts específicos para cada imagen que necesita ser actualizada o creada. El documento incluye:
@@ -2968,7 +3034,15 @@ Entiendo perfectamente. Quieres un enfoque más ilustrativo y gráfico para ayud
 
 ---
 
+<details><summary>Edit file: prompts-imagenes-ilustrativas.md</summary>
+
+Crear un nuevo documento enfocado en ilustraciones y gráficos para mejorar la experiencia del usuario, manteniendo solo fotografías reales para productos físicos
+
+**Chunk 1**
+Lines added: 395, lines removed: 1
+
 ```diff
+@@ -1,1 +1,395 @@
 - 
 + # Prompts para Imágenes Ilustrativas - WPG Amenities
 + 
@@ -3367,6 +3441,8 @@ Entiendo perfectamente. Quieres un enfoque más ilustrativo y gráfico para ayud
 + Este enfoque ilustrativo mejorará significativamente la usabilidad mientras mantiene la autenticidad de los productos físicos con fotografías reales profesionales. 
 ```
 
+</details>
+
 ---
 
 <think><details><summary>Thought Process</summary>El usuario quería un nuevo documento enfocado solo en lo que vamos a actualizar, con un enfoque ilustrativo para ayudar al reconocimiento del usuario, manteniendo solo fotografías reales para los productos físicos. He creado un documento completamente nuevo que:
@@ -3466,7 +3542,15 @@ Tienes razón, el contenido necesita una actualización profunda después de cas
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
+
+Crear un cuestionario exhaustivo para la propietaria Sonia Weiss para actualizar el contenido del sitio web después de 20 años
+
+**Chunk 1**
+Lines added: 324, lines removed: 1
+
 ```diff
+@@ -1,1 +1,324 @@
 - 
 + # Cuestionario de Actualización de Contenido - WPG Amenities 2025
 + 
@@ -3794,6 +3878,8 @@ Tienes razón, el contenido necesita una actualización profunda después de cas
 + Versión: 1.0* 
 ```
 
+</details>
+
 ---
 
 <think><details><summary>Thought Process</summary>Perfecto, he creado un cuestionario muy completo que abarca todas las áreas importantes para actualizar el contenido. El documento está organizado en secciones lógicas y cubre:
@@ -3898,7 +3984,53 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 25, lines removed: undefined
+
+```diff
+@@ -225,10 +225,35 @@
+  ### **Canales Actuales**
+  57. **¿Qué redes sociales manejan actualmente y con qué frecuencia?**
++     - Facebook, Instagram, LinkedIn, TikTok, YouTube
++     - ¿Quién las maneja? ¿Tienen contenido planificado?
+  
+  58. **¿El sitio web actual recibe consultas/pedidos?**
++     - ¿Cuántas consultas mensuales aproximadamente?
++     - ¿Qué porcentaje se convierten en ventas?
+  
+  59. **¿Usan WhatsApp Business o similar para atención al cliente?**
++     - ¿Tienen catálogo en WhatsApp?
++     - ¿Usan chatbots o respuestas automáticas?
+  
+  60. **¿Tienen sistema de e-commerce o todo es por contacto directo?**
++     - ¿Les interesaría vender online?
++     - ¿Qué productos serían apropiados para venta online?
++ 
++ ### **Marketing Digital**
++ 61. **¿Hacen publicidad digital? ¿En qué plataformas?**
++     - Google Ads, Facebook Ads, LinkedIn Ads
++     - ¿Cuál es su presupuesto mensual de marketing?
++ 
++ 62. **¿Tienen newsletter o email marketing?**
++     - ¿Cuántos contactos tienen?
++     - ¿Con qué frecuencia envían comunicaciones?
++ 
++ 63. **¿Participan en ferias, eventos o conferencias del sector hotelero?**
++     - ¿Cuáles son los más importantes para ustedes?
++     - ¿Tienen material promocional actualizado?
++ 
++ 64. **¿Tienen programa de referidos o incentivos para clientes?**
++ 
++ 65. **¿Colaboran con influencers o bloggers del sector hotelero?**
+  
+  ---
+```
+
+</details>
 
 ---
 
@@ -3906,7 +4038,107 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 70, lines removed: 5
+
+```diff
+@@ -257,19 +257,84 @@
+  65. **¿Colaboran con influencers o bloggers del sector hotelero?**
+  
++ ---
++ 
++ ## 📊 **ANALYTICS Y MÉTRICAS**
++ 
++ ### **Medición de Resultados**
++ 66. **¿Usan Google Analytics o similar para medir tráfico web?**
++     - ¿Conocen sus páginas más visitadas?
++     - ¿De dónde viene la mayoría de su tráfico?
++ 
++ 67. **¿Tienen datos de conversión actuales?**
++     - ¿Cuántas visitas se convierten en consultas?
++     - ¿Cuánto tiempo toma cerrar una venta típica?
++ 
++ 68. **¿Qué métricas les interesaría monitorear?**
++     - Leads generados, tiempo en sitio, páginas más populares
++     - ¿Quieren reportes automáticos?
++ 
++ 69. **¿Tienen un CRM para gestionar clientes potenciales?**
++ 
++ ### **SEO y Posicionamiento**
++ 70. **¿Aparecen en Google cuando buscan "amenities Paraguay" o términos similares?**
++ 
++ 71. **¿Tienen competidores que aparezcan antes que ustedes en Google?**
++ 
++ 72. **¿Qué palabras clave les gustaría posicionar?**
++     - "amenities hoteles Paraguay", "productos hoteleros", etc.
++ 
++ ---
++ 
++ ## 💻 **FUNCIONALIDADES WEB MODERNAS**
++ 
++ ### **Herramientas Online**
++ 73. **¿Les interesaría tener un cotizador online automático?**
++     - Para productos estándar o personalizados
++     - ¿Qué información necesitarían del cliente?
++ 
++ 74. **¿Quieren un catálogo interactivo con filtros?**
++     - Por tipo de producto, material, color, precio
++     - ¿Con posibilidad de generar PDF personalizado?
++ 
++ 75. **¿Les serviría un área privada para clientes?**
++     - Historial de pedidos, tracking de entregas
++     - Catálogos exclusivos, precios preferenciales
++ 
++ 76. **¿Quieren integrar con WhatsApp desde el sitio?**
++     - Botón de WhatsApp con mensaje predefinido
++     - ¿Para diferentes tipos de consulta?
++ 
++ 77. **¿Les interesa un sistema de citas/reuniones online?**
++     - Calendario para agendar consultas
++     - ¿Videollamadas para presentaciones?
++ 
++ ### **Automatización**
++ 78. **¿Quieren formularios inteligentes que envíen emails automáticos?**
++     - Confirmación de recepción, seguimiento automático
++     - ¿Diferentes flujos según tipo de consulta?
++ 
++ 79. **¿Les serviría un chat en vivo en el sitio?**
++     - ¿Durante horarios específicos?
++     - ¿Con respuestas automáticas para preguntas frecuentes?
++ 
++ 80. **¿Quieren notificaciones automáticas de nuevas consultas?**
++     - Email, WhatsApp, SMS
++     - ¿A quién deberían llegar?
++ 
+  ---
+  
+  ## 🔍 **INFORMACIÓN ESPECÍFICA PARA EL SITIO WEB**
+  
+  ### **Contenido Prioritario**
+- 61. **¿Qué información consideran MÁS importante que aparezca en el nuevo sitio?**
++ 81. **¿Qué información consideran MÁS importante que aparezca en el nuevo sitio?**
+  
+- 62. **¿Qué preguntas frecuentes reciben de clientes potenciales?**
++ 82. **¿Qué preguntas frecuentes reciben de clientes potenciales?**
+  
+- 63. **¿Qué contenido del sitio actual está desactualizado?**
++ 83. **¿Qué contenido del sitio actual está desactualizado?**
+  
+- 64. **¿Qué contenido nuevo les gustaría agregar?**
++ 84. **¿Qué contenido nuevo les gustaría agregar?**
+      - Blog, noticias, catálogo interactivo, calculadora de precios
+  
+- 65. **¿Prefieren un sitio más institucional o más comercial?**
++ 85. **¿Prefieren un sitio más institucional o más comercial?**
+  
+  ---
+```
+
+</details>
 
 ---
 
@@ -3914,7 +4146,47 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 14, lines removed: 5
+
+```diff
+@@ -343,15 +343,24 @@
+  
+  ### **Datos de Contacto 2025**
+- 66. **¿Siguen en la misma dirección: Guido Spano 1139?**
++ 86. **¿Siguen en la misma dirección: Guido Spano 1139?**
++     - ¿Tienen oficina nueva o sucursales?
++     - ¿Hay planta de producción separada de oficinas?
+  
+- 67. **¿Los teléfonos siguen siendo los mismos?**
++ 87. **¿Los teléfonos siguen siendo los mismos?**
+      - +595 (21)-663978
+      - +595 (981)-472444
++     - ¿Tienen línea directa para ventas?
+  
+- 68. **¿El email amenities@wpg.com.py sigue activo?**
++ 88. **¿El email amenities@wpg.com.py sigue activo?**
++     - ¿Tienen emails específicos por departamento?
++     - ventas@, produccion@, gerencia@, etc.
+  
+- 69. **¿Tienen nuevos canales de contacto?**
++ 89. **¿Tienen nuevos canales de contacto?**
++     - Telegram, otras apps de mensajería
++     - ¿Sistema de tickets o soporte?
+  
+- 70. **¿Sus horarios de atención han cambiado?**
++ 90. **¿Sus horarios de atención han cambiado?**
++     - ¿Atienden sábados o fines de semana?
++     - ¿Tienen horarios extendidos en temporada alta?
+  
+  ---
+```
+
+</details>
 
 ---
 
@@ -3922,7 +4194,182 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 148, lines removed: 5
+
+```diff
+@@ -369,16 +369,159 @@
+  
+  ### **Expectativas del Nuevo Sitio**
+- 71. **¿Cuáles son sus 3 objetivos principales con el nuevo sitio web?**
++ 91. **¿Cuáles son sus 3 objetivos principales con el nuevo sitio web?**
+  
+- 72. **¿Qué resultados esperan obtener?**
++ 92. **¿Qué resultados esperan obtener?**
+      - Más leads, mejor posicionamiento, facilitar ventas
+  
+- 73. **¿Hay algo importante que no hemos preguntado?**
++ 93. **¿Hay algo importante que no hemos preguntado?**
+  
+- 74. **¿Qué mensaje principal quieren transmitir a los visitantes del sitio?**
++ 94. **¿Qué mensaje principal quieren transmitir a los visitantes del sitio?**
+  
+- 75. **¿Alguna funcionalidad específica que les gustaría incluir?**
++ 95. **¿Alguna funcionalidad específica que les gustaría incluir?**
+      - Cotizador online, catálogo interactivo, área de clientes
+  
++ ---
++ 
++ ## 🌍 **TENDENCIAS Y FUTURO DEL SECTOR**
++ 
++ ### **Evolución del Mercado Hotelero**
++ 96. **¿Cómo ha cambiado la demanda de amenities desde la pandemia?**
++     - ¿Qué productos son más solicitados ahora?
++     - ¿Han cambiado las preferencias hacia productos más higiénicos?
++ 
++ 97. **¿Qué tendencias ven en la industria hotelera paraguaya?**
++     - Hoteles boutique, eco-hotels, turismo rural
++     - ¿Airbnb y propiedades de alquiler temporal?
++ 
++ 98. **¿Sus clientes piden más productos eco-friendly actualmente?**
++     - ¿Qué porcentaje de pedidos incluyen productos sustentables?
++     - ¿Tienen presión por reducir plásticos?
++ 
++ 99. **¿Han notado influencia de cadenas hoteleras internacionales?**
++     - ¿Nuevos estándares o requerimientos?
++     - ¿Competencia con proveedores globales?
++ 
++ 100. **¿Qué innovaciones han visto en amenities a nivel mundial?**
++      - ¿Algo que les gustaría implementar en Paraguay?
++ 
++ ---
++ 
++ ## 📋 **CONTENIDO ESPECÍFICO MISSING/DESACTUALIZADO**
++ 
++ ### **Basado en Análisis del Sitio Actual**
++ 101. **¿Todos los hoteles listados en su sitio siguen siendo clientes?**
++      - He notado que algunas páginas dan error 404
++      - ¿Cuáles deberíamos remover del portafolio?
++ 
++ 102. **¿Tienen imágenes actuales de todos sus productos?**
++      - ¿Necesitan nuevas fotografías profesionales?
++      - ¿Productos nuevos sin fotos?
++ 
++ 103. **¿Falta algún certificado o reconocimiento importante?**
++      - ISO, certificaciones de calidad, premios recientes
++      - ¿Membresías en asociaciones del sector?
++ 
++ 104. **¿Tienen casos de estudio o testimonios detallados?**
++      - Historias de éxito con clientes específicos
++      - ¿Proyectos especiales que los enorgullezcan?
++ 
++ 105. **¿Falta información técnica en su sitio actual?**
++      - Especificaciones de productos, fichas técnicas
++      - ¿Información sobre ingredientes, materiales?
++ 
++ ### **Contenido Educativo Potencial**
++ 106. **¿Les interesaría tener un blog o centro de recursos?**
++      - "Guía para elegir amenities hoteleros"
++      - "Tendencias en hospitalidad"
++      - "Sustentabilidad en hoteles"
++ 
++ 107. **¿Podrían compartir expertise sobre la industria?**
++      - Consejos para hoteleros
++      - ¿Webinars o capacitaciones?
++ 
++ 108. **¿Tienen información sobre cómo usar/aplicar sus productos?**
++      - Videos tutoriales, guías de implementación
++      - ¿Mejores prácticas para hoteles?
++ 
++ ---
++ 
++ ## 🎯 **SEGMENTACIÓN Y MERCADOS ESPECÍFICOS**
++ 
++ ### **Tipos de Cliente**
++ 109. **¿Trabajan diferente con hoteles grandes vs boutique?**
++      - ¿Catálogos diferentes, precios, servicios?
++      - ¿Necesitan contenido segmentado por tipo de hotel?
++ 
++ 110. **¿Tienen clientes en turismo rural o glamping?**
++      - ¿Productos específicos para estos nichos?
++      - ¿Necesidades diferentes?
++ 
++ 111. **¿Trabajan con spas, clínicas, centros wellness?**
++      - ¿Productos especializados para estos sectores?
++ 
++ 112. **¿Atienden a propiedades de Airbnb o alquileres temporales?**
++      - ¿Es un mercado en crecimiento?
++      - ¿Productos en menor escala?
++ 
++ 113. **¿Tienen clientes corporativos (oficinas, eventos)?**
++      - ¿Amenities para eventos empresariales?
++ 
++ ### **Necesidades por Segmento**
++ 114. **¿Cada tipo de cliente necesita información diferente en el sitio?**
++      - ¿Páginas específicas por sector?
++      - ¿Calculadoras de precio diferentes?
++ 
++ 115. **¿Tienen precios/condiciones diferentes por tipo de cliente?**
++      - ¿Necesitamos área privada para ver precios especiales?
++ 
++ ---
++ 
++ ## 💡 **INNOVACIÓN Y DIFERENCIACIÓN**
++ 
++ ### **Servicios Únicos**
++ 116. **¿Qué hacen que sus competidores NO hacen?**
++      - ¿Servicios exclusivos, procesos únicos?
++      - ¿Por qué elegir WPG vs otros?
++ 
++ 117. **¿Tienen alguna exclusividad o patente?**
++      - ¿Fórmulas propias, procesos únicos?
++      - ¿Proveedores exclusivos?
++ 
++ 118. **¿Ofrecen servicios de consultoría en hospitalidad?**
++      - ¿Asesoramiento más allá de productos?
++      - ¿Auditorías de amenities?
++ 
++ 119. **¿Tienen programa de I+D (investigación y desarrollo)?**
++      - ¿Desarrollo de nuevos productos?
++      - ¿Colaboración con hoteles para innovar?
++ 
++ 120. **¿Qué los diferencia de proveedores internacionales grandes?**
++      - ¿Ventajas de ser local, familiar, especializado?
++ 
++ ---
++ 
++ ## 🔧 **ASPECTOS TÉCNICOS DEL SITIO WEB**
++ 
++ ### **Funcionalidades Avanzadas**
++ 121. **¿Necesitan el sitio en múltiples idiomas?**
++      - Español, inglés, portugués
++      - ¿Para clientes internacionales?
++ 
++ 122. **¿Quieren integración con redes sociales?**
++      - Feed de Instagram en el sitio
++      - ¿Compartir contenido automáticamente?
++ 
++ 123. **¿Les interesa un sistema de gestión de inventario visible?**
++      - "En stock", "disponible en X días"
++      - ¿Actualización automática?
++ 
++ 124. **¿Quieren notificaciones push o newsletter automático?**
++      - Nuevos productos, ofertas especiales
++      - ¿Segmentado por tipo de cliente?
++ 
++ 125. **¿Necesitan exportar listas de productos/precios?**
++      - PDF, Excel para propuestas
++      - ¿Personalizables por cliente?
++ 
+  ---
+  
+```
+
+</details>
 
 ---
 
@@ -3930,7 +4377,29 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 4, lines removed: 3
+
+```diff
+@@ -541,7 +541,8 @@
+  
+  ### **Tiempo Estimado:**
+- - **Respuesta completa:** 2-3 horas
+- - **Respuesta prioritaria (primeras 40 preguntas):** 1 hora
+- - **Reunión de seguimiento:** 1 hora
++ - **Respuesta completa (125 preguntas):** 4-5 horas
++ - **Respuesta prioritaria (primeras 50 preguntas):** 2 horas  
++ - **Respuesta crítica (preguntas marcadas con ⭐):** 1 hora
++ - **Reunión de seguimiento:** 2 horas
+  
+  ---
+```
+
+</details>
 
 ---
 
@@ -3938,7 +4407,118 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 96, lines removed: undefined
+
+```diff
+@@ -524,4 +524,100 @@
+       - ¿Personalizables por cliente?
+  
++ ---
++ 
++ ## 🔍 **PREGUNTAS ULTRA-ESPECÍFICAS DEL SITIO ACTUAL**
++ 
++ ### **Problemas Técnicos Identificados**
++ 126. **He detectado imágenes rotas en el sitio actual - ¿pueden confirmar cuáles de estos logos/fotos tienen?**
++      - ⭐ **CRÍTICO:** Logos de clientes que dan error 404:
++        - altagraciahotel.gif, altoesteaparthotel.gif, andaresdelaguahotel.gif
++        - hotelcasablanca.gif, hotelcecilia.gif
++      - ⭐ **CRÍTICO:** Iconos sociales missing: facebook.svg, twitter.svg, google-plus.svg
++      - Imágenes de productos con rutas incorrectas
++ 
++ 127. **¿Cuáles de estos hoteles listados YA NO son clientes?**
++      ```
++      - Alta Gracia Hotel
++      - Alto Este Apart Hotel  
++      - Andares del Agua Hotel
++      - Hotel Casa Blanca
++      - Hotel Cecilia
++      - [Lista completa del content.yml]
++      ```
++ 
++ 128. **¿Confirmamos información de contacto exacta?**
++      - ⭐ Email: amenities@wpg.com.py (¿sigue activo?)
++      - ⭐ Teléfonos: +595 (21)-663978 / +595 (981)-472444 (¿actuales?)
++      - ⭐ Dirección: Guido Spano 1139, Asunción Paraguay (¿correcta?)
++ 
++ ### **Productos Específicos del Catálogo Actual**
++ 129. **¿Estos productos específicos siguen disponibles con estos nombres exactos?**
++      - Botella Estándar 02 / Botella Estándar 15
++      - Tapa Plana Dorada (TFH-D) / Tapa Plana Verde (TFH-V)  
++      - Jabón de Coco Natural / Jabón Premium 25g
++      - Kit Dental Completo / Kit de Belleza Premium
++ 
++ 130. **¿Las descripciones actuales de productos son correctas?**
++      ```
++      Ejemplo actual: "Jabón artesanal de aceite de coco natural con propiedades hidratantes y nutritivas"
++      ```
++      - ¿Necesitan actualizarse las descripciones técnicas?
++      - ¿Faltan especificaciones (peso, tamaño, ingredientes)?
++ 
++ ### **Enlaces y Referencias**
++ 131. **¿Estos links de redes sociales siguen activos?**
++      - ⭐ Facebook: http://www.facebook.com/WPG.Amenities
++      - ⭐ Twitter: http://www.twitter.com/WpgAmenities
++      - Google Plus: https://plus.google.com/u/0/b/111322519715414897652/111322519715414897652/about
++ 
++ 132. **¿Los links a sitios web de hoteles clientes siguen funcionando?**
++      - Muchos hoteles tienen URLs que podrían haber cambiado
++      - ¿Algunos cerraron o cambiaron de nombre?
++ 
++ ### **Información Corporativa Exacta**
++ 133. **¿Confirman el nombre legal exacto de la empresa?**
++      - Actual en sitio: "WPG® - Weiss van der Pol Group S.R.L."
++      - ¿Es correcto? ¿Ha cambiado?
++ 
++ 134. **¿La historia "fundada en 2005" es exacta?**
++      - ¿Fecha específica de fundación?
++      - ¿20+ años de experiencia es correcto para 2025?
++ 
++ 135. **¿La información del equipo está actualizada?**
++      ```
++      Actual:
++      - Sonia Weiss: Propietaria y Directora General
++      - Carlos Weiss: Director de Ventas  
++      - Luana Weiss: Gerente de Producción
++      ```
++      - ¿Roles actuales correctos?
++      - ¿Falta alguien importante?
++ 
++ ---
++ 
++ ## ⭐ **RESUMEN DE PREGUNTAS CRÍTICAS (Responder PRIMERO)**
++ 
++ ### **Top 20 Preguntas Más Importantes:**
++ 1. **⭐ Pregunta #7:** ¿Cuáles son sus 5 productos/servicios más demandados actualmente?
++ 2. **⭐ Pregunta #13:** ¿Cuáles son sus 10 clientes más importantes en 2025?
++ 3. **⭐ Pregunta #21:** ¿Carlos Weiss sigue en la empresa? ¿Cuál es su rol actual?
++ 4. **⭐ Pregunta #25:** ¿Cómo definirían la misión de WPG Amenities en 2025?
++ 5. **⭐ Pregunta #28:** ¿Cuál consideran que es su mayor fortaleza actualmente?
++ 6. **⭐ Pregunta #40:** ¿Cuál es el pedido mínimo actual?
++ 7. **⭐ Pregunta #45:** ¿Cuáles son sus objetivos principales para 2025-2030?
++ 8. **⭐ Pregunta #56:** ¿Cómo quieren ser percibidos en el mercado?
++ 9. **⭐ Pregunta #81:** ¿Qué información consideran MÁS importante que aparezca en el nuevo sitio?
++ 10. **⭐ Pregunta #86:** ¿Siguen en la misma dirección: Guido Spano 1139?
++ 11. **⭐ Pregunta #88:** ¿El email amenities@wpg.com.py sigue activo?
++ 12. **⭐ Pregunta #91:** ¿Cuáles son sus 3 objetivos principales con el nuevo sitio web?
++ 13. **⭐ Pregunta #101:** ¿Todos los hoteles listados en su sitio siguen siendo clientes?
++ 14. **⭐ Pregunta #116:** ¿Qué hacen que sus competidores NO hacen?
++ 15. **⭐ Pregunta #126:** ¿Pueden confirmar cuáles logos/fotos tienen disponibles?
++ 16. **⭐ Pregunta #127:** ¿Cuáles hoteles listados YA NO son clientes?
++ 17. **⭐ Pregunta #128:** ¿Confirmamos información de contacto exacta?
++ 18. **⭐ Pregunta #131:** ¿Estos links de redes sociales siguen activos?
++ 19. **⭐ Pregunta #133:** ¿Confirman el nombre legal exacto de la empresa?
++ 20. **⭐ Pregunta #135:** ¿La información del equipo está actualizada?
++ 
+  ---
+  
+```
+
+</details>
 
 ---
 
@@ -3946,7 +4526,56 @@ Voy a expandir significativamente el cuestionario basándome en el contenido act
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 28, lines removed: 6
+
+```diff
+@@ -646,10 +646,32 @@
+  ## 🎯 **PRÓXIMOS PASOS**
+  
+- Una vez que tengamos las respuestas:
+- 
+- 1. **Semana 1:** Análisis de respuestas y creación de nuevo contenido
+- 2. **Semana 2:** Redacción y estructuración del contenido actualizado  
+- 3. **Semana 3:** Revisión y aprobación del contenido
+- 4. **Semana 4:** Implementación en el sitio web
++ ### **Metodología de Trabajo:**
++ 1. **Respuesta por Fases:**
++    - **FASE 1 (Inmediato):** Responder 20 preguntas críticas marcadas con ⭐
++    - **FASE 2 (Semana 1):** Completar primeras 50 preguntas prioritarias
++    - **FASE 3 (Semana 2):** Resto de preguntas según disponibilidad
++ 
++ 2. **Reunión de Trabajo:**
++    - Revisar respuestas críticas
++    - Aclarar dudas y priorizar contenido
++    - Definir funcionalidades del nuevo sitio
++ 
++ ### **Cronograma de Implementación:**
++ 1. **Semana 1-2:** Análisis de respuestas y auditoría completa del contenido actual
++ 2. **Semana 3:** Redacción del nuevo contenido basado en información actualizada
++ 3. **Semana 4:** Estructuración y organización del contenido en content.yml
++ 4. **Semana 5:** Primera revisión y feedback de la cliente
++ 5. **Semana 6:** Ajustes finales y implementación
++ 6. **Semana 7:** Testing y correcciones
++ 7. **Semana 8:** Lanzamiento del sitio actualizado
++ 
++ ### **Entregables Esperados:**
++ - ✅ **content.yml completamente actualizado** con información real 2025
++ - ✅ **Listado depurado de clientes actuales** (removiendo inactivos)
++ - ✅ **Catálogo de productos actualizado** con descripciones precisas
++ - ✅ **Información corporativa verificada** (contactos, equipo, historia)
++ - ✅ **Propuesta de nuevas funcionalidades** basada en necesidades identificadas
++ - ✅ **Plan de contenido digital** (blog, redes sociales, marketing)
++ - ✅ **Roadmap de mejoras futuras** según objetivos empresariales
+  
+  ---
+```
+
+</details>
 
 ---
 
@@ -3958,7 +4587,45 @@ Finalmente voy a actualizar el final del documento para reflejar el cuestionario
 
 ---
 
+<details><summary>Edit file: cuestionario-actualizacion-contenido.md</summary>
 
+undefined
+
+**Chunk 1**
+Lines added: 19, lines removed: 3
+
+```diff
+@@ -678,8 +678,24 @@
+  
+  **¡Gracias por su tiempo y colaboración!**  
+- Esta información será fundamental para crear un sitio web que realmente represente la WPG Amenities de 2025 y genere los resultados que buscan.
++ 
++ Este cuestionario exhaustivo de **135 preguntas** nos permitirá crear un sitio web que realmente represente la WPG Amenities de 2025, con:
++ 
++ 🎯 **Contenido 100% actualizado y real**  
++ 🚀 **Funcionalidades modernas que generen resultados**  
++ 📊 **Estrategia digital integral**  
++ ✨ **Diferenciación clara de la competencia**
++ 
++ ### **Recordatorio Importante:**
++ - **Priorizar respuestas marcadas con ⭐** (20 preguntas críticas)
++ - **Ser específicos con números y datos concretos**
++ - **Incluir todo cambio desde 2005** (¡han pasado 20 años!)
++ - **Pensar en el cliente ideal de 2025**, no en el de 2005
++ 
++ **¡Su expertise de 20 años en la industria es invaluable para crear el mejor sitio web para WPG Amenities!**
+  
+  ---
+- *Documento preparado por: [Su nombre]  
++ *Documento preparado para: Sonia Weiss, WPG Amenities  
+  Fecha: Enero 2025  
+- Versión: 1.0* 
++ Versión: 2.0 Expandida  
++ Total de preguntas: 135  
++ Críticas prioritarias: 20* 
+```
+
+</details>
 
 ---
 
@@ -4079,7 +4746,36 @@ npm start
 
 ---
 
-<think><details><summary>Thought Process</summary>The command is running in the background, but I don't see any output yet. Let me check if the server is running by checking what processes are running or by trying to access the typical port. Usually http-server runs on port 8080</details></think>
+<think><details><summary>Thought Process</summary>The command is running in the background, but I don't see any output yet. Let me check if the server is running by checking what processes are running or by trying to access the typical port. Usually http-server runs on port 8080 by default. Let me run another command to see the status.</details></think>
+
+---
+
+```bash
+netstat -ano | findstr :8080
+```
+
+```
+PS C:\Users\kyrian\Documents\wpg page> netstat -ano | findstr :8080
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       21236
+  TCP    [::1]:8080             [::]:0                 LISTENING       2600
+PS C:\Users\kyrian\Documents\wpg page>
+```
+
+---
+
+<think><details><summary>Thought Process</summary>Great! I can see that the server is running on port 8080 (there are TCP connections listening on that port). Let me try to get more information about the server or try to check if we can access it.</details></think>
+
+---
+
+¡Excelente! El servidor está ejecutándose correctamente. Puedo ver que está corriendo en el puerto 8080. Ahora voy a verificar que el servidor esté funcionando correctamente:
+
+---
+
+Cancelled
+
+---
+
+
 
 ---
 

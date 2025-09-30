@@ -19,20 +19,70 @@ const App = {
     // Initialize the application
     async init() {
         try {
+            // Show loading state
+            this.showLoadingState();
+            
             // Fetch and load YAML data
             const response = await fetch(config.paths.content);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const yamlText = await response.text();
+            
+            // Check if jsyaml is available
+            if (typeof jsyaml === 'undefined') {
+                throw new Error('js-yaml library not loaded');
+            }
+            
             this.state.siteData = jsyaml.load(yamlText);
 
             // Set the current page based on the body ID
             this.state.currentPage = document.body.id;
 
             // Render common elements and page-specific content
-            this.render();
+            await this.render();
+            
+            // Hide loading state
+            this.hideLoadingState();
         } catch (error) {
-            console.error('Error initializing app:', error);
-            document.body.innerHTML = '<h1>Error loading website content.</h1>';
+            if (!config.production) {
+                console.error('Error initializing app:', error);
+            }
+            this.showErrorState(error);
+        }
+    },
+    
+    // Show loading state
+    showLoadingState() {
+        const main = document.querySelector('main');
+        if (main) {
+            main.innerHTML = `
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <p>Loading content...</p>
+                </div>
+            `;
+        }
+    },
+    
+    // Hide loading state
+    hideLoadingState() {
+        document.body.classList.remove('loading');
+    },
+    
+    // Show error state with helpful message
+    showErrorState(error) {
+        const main = document.querySelector('main');
+        if (main) {
+            main.innerHTML = `
+                <div class="error-container">
+                    <h1>Unable to Load Content</h1>
+                    <p>We're having trouble loading the website content. Please try refreshing the page.</p>
+                    <details>
+                        <summary>Technical Details</summary>
+                        <pre>${error.message}</pre>
+                    </details>
+                    <button onclick="location.reload()">Refresh Page</button>
+                </div>
+            `;
         }
     },
 
@@ -51,7 +101,7 @@ const App = {
         const pageRenderer = this.router[this.state.currentPage];
         if (pageRenderer) {
             pageRenderer(this.state.siteData);
-        } else {
+        } else if (!config.production) {
             console.warn(`No renderer found for page: ${this.state.currentPage}`);
         }
     },
@@ -67,13 +117,34 @@ const App = {
         
         try {
             const response = await fetch('/partials/header.html');
+            if (!response.ok) {
+                throw new Error(`Failed to load header: ${response.status}`);
+            }
             const headerHtml = await response.text();
             header.innerHTML = headerHtml;
             
             // Populate header with data
             this.populateHeader();
         } catch (error) {
-            console.error('Error loading header:', error);
+            if (!config.production) {
+                console.error('Error loading header:', error);
+            }
+            // Provide fallback header
+            header.innerHTML = `
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a href="/" class="logo-link">WPG Amenities</a>
+                        </div>
+                        <ul class="nav-links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/products.html">Products</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            `;
         }
     },
 
@@ -84,6 +155,9 @@ const App = {
         
         try {
             const response = await fetch('/partials/footer.html');
+            if (!response.ok) {
+                throw new Error(`Failed to load footer: ${response.status}`);
+            }
             const footerHtml = await response.text();
             footer.innerHTML = footerHtml;
             
@@ -95,8 +169,20 @@ const App = {
             
             // Initialize modern UI enhancements
             this.initializeModernUI();
-  } catch (error) {
-            console.error('Error loading footer:', error);
+        } catch (error) {
+            if (!config.production) {
+                console.error('Error loading footer:', error);
+            }
+            // Provide fallback footer
+            footer.innerHTML = `
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="copyright">
+                            <p>&copy; 2024 WPG Amenities. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            `;
         }
     },
 
@@ -214,34 +300,28 @@ const App = {
             // Hero Section
             const heroSection = `
                 <section class="hero" style="background-image: url('${homepage.hero.slides && homepage.hero.slides[0] ? homepage.hero.slides[0].image : ''}');">
-        <div class="container">
-                        <h1>${homepage.hero.headline}</h1>
+                    <div class="container">
+                        <h1>${homepage.hero.headline.replace(/\\n/g, '<br>')}</h1>
                         <p>${homepage.hero.tagline}</p>
-        </div>
+                        <div class="hero-buttons">
+                            <a href="${homepage.hero.primary_cta.url}" class="btn btn-primary">${homepage.hero.primary_cta.text}</a>
+                            <a href="${homepage.hero.secondary_cta.url}" class="btn btn-secondary">${homepage.hero.secondary_cta.text}</a>
+                        </div>
+                    </div>
                 </section>
             `;
 
             // Other sections
-            const valuePropSection = App.createSection('value-prop', `
-                <h2>${homepage.value_proposition.headline}</h2>
-                <p>${homepage.value_proposition.text}</p>
-            `);
+            const valuePropSection = `
+                <section class="value-prop" style="background: linear-gradient(rgba(248, 246, 243, 0.95), rgba(248, 246, 243, 0.95)), url('https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1920&h=600&fit=crop') center/cover;">
+                    <div class="container">
+                        <h2>${homepage.value_proposition.headline}</h2>
+                        <p>${homepage.value_proposition.text}</p>
+                    </div>
+                </section>
+            `;
 
-            const featuredProductsSection = App.createSection('featured-products', `
-                <h2>Explore Our Products</h2>
-                <div class="categories-grid">
-                    ${products && products.categories ? products.categories.slice(0, 4).map(cat => `
-        <div class="category-card">
-                            <a href="${cat.url}">
-                                <img src="${cat.category_image || cat.image}" alt="${cat.title}" loading="lazy">
-                                <h3>${cat.title}</h3>
-                            </a>
-        </div>
-                    `).join('') : ''}
-          </div>
-            `);
-
-            main.innerHTML = heroSection + valuePropSection + featuredProductsSection;
+            main.innerHTML = heroSection + valuePropSection;
         },
 
         'products': (data) => {
@@ -251,8 +331,10 @@ const App = {
 
             const categoryLinks = products.categories.map(cat => `
                 <a href="${cat.url}" class="category-link">
-                    <h3>${cat.title}</h3>
-                    <p>${cat.description}</p>
+                    <div class="service-card">
+                        <h3>${cat.title}</h3>
+                        <p>${cat.description}</p>
+                    </div>
                 </a>
         `).join('');
 
@@ -278,11 +360,20 @@ const App = {
 
             category.items.forEach(item => {
                 const card = template.content.cloneNode(true);
-                card.querySelector('img').src = `${config.paths.images.products}${item.image}`;
+                // If image starts with / it's an absolute path, otherwise prepend the base path
+                if (item.image.startsWith('/')) {
+                    card.querySelector('img').src = item.image;
+                } else if (item.image.startsWith('images/')) {
+                    card.querySelector('img').src = '/' + item.image;
+                } else {
+                    card.querySelector('img').src = `${config.paths.images.products}${item.image}`;
+                }
                 card.querySelector('img').alt = item.name;
                 card.querySelector('h4').textContent = item.name;
                 if (item.code) {
                     card.querySelector('.product-code').textContent = `Code: ${item.code}`;
+                } else {
+                    card.querySelector('.product-code').textContent = item.description || '';
                 }
                 productGrid.appendChild(card);
             });
@@ -507,6 +598,116 @@ const App = {
           </div>
                 </section>
             `;
+        },
+
+        'contact': (data) => {
+            const { contact } = data;
+            const main = document.querySelector('main');
+            if (!main) return;
+
+            main.innerHTML = `
+                <section class="hero">
+                    <div class="container">
+                        <h1>${contact.page_hero.headline}</h1>
+                        <p>${contact.page_hero.tagline}</p>
+                    </div>
+                </section>
+                
+                <section class="contact-content">
+                    <div class="container">
+                        <div class="contact-grid">
+                            <div class="contact-info">
+                                <h2>Información de Contacto</h2>
+                                <div class="info-item">
+                                    <h3>Dirección</h3>
+                                    <p>${contact.contact_info.address}</p>
+                                </div>
+                                <div class="info-item">
+                                    <h3>Teléfono</h3>
+                                    <p><a href="tel:${contact.contact_info.phone.replace(/[^0-9+]/g, '')}" aria-label="Llamar a WPG Amenities">${contact.contact_info.phone}</a></p>
+                                    <p><a href="tel:${contact.contact_info.cel.replace(/[^0-9+]/g, '')}" aria-label="Llamar al móvil de WPG Amenities">${contact.contact_info.cel}</a></p>
+                                </div>
+                                <div class="info-item">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:${contact.contact_info.email}" aria-label="Enviar email a WPG Amenities">${contact.contact_info.email}</a></p>
+                                </div>
+                                <div class="info-item">
+                                    <h3>Horario de Atención</h3>
+                                    <p>${contact.business_hours.monday_friday}</p>
+                                    <p>${contact.business_hours.saturday}</p>
+                                    <p>${contact.business_hours.sunday}</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-form-container">
+                                <h2>${contact.contact_form.title}</h2>
+                                <form id="contact-form" class="contact-form" aria-label="Formulario de contacto">
+                                    ${contact.contact_form.fields.map(field => `
+                                        <div class="form-group">
+                                            <label for="${field.name}" ${field.required ? 'class="required"' : ''}>
+                                                ${field.label}${field.required ? ' <span aria-label="campo requerido">*</span>' : ''}
+                                            </label>
+                                            ${field.type === 'textarea' ? 
+                                                `<textarea 
+                                                    id="${field.name}" 
+                                                    name="${field.name}" 
+                                                    ${field.required ? 'required' : ''} 
+                                                    aria-required="${field.required}"
+                                                    aria-label="${field.label}"
+                                                    rows="5"></textarea>` :
+                                                field.type === 'select' ?
+                                                `<select 
+                                                    id="${field.name}" 
+                                                    name="${field.name}" 
+                                                    ${field.required ? 'required' : ''}
+                                                    aria-required="${field.required}"
+                                                    aria-label="${field.label}">
+                                                    <option value="">Seleccione una opción</option>
+                                                    ${field.options ? field.options.map(opt => 
+                                                        `<option value="${opt}">${opt}</option>`
+                                                    ).join('') : ''}
+                                                </select>` :
+                                                `<input 
+                                                    type="${field.type}" 
+                                                    id="${field.name}" 
+                                                    name="${field.name}" 
+                                                    ${field.required ? 'required' : ''}
+                                                    aria-required="${field.required}"
+                                                    aria-label="${field.label}">`
+                                            }
+                                            ${field.helper ? `<small class="helper-text">${field.helper}</small>` : ''}
+                                        </div>
+                                    `).join('')}
+                                    <button type="submit" class="btn btn-primary" aria-label="Enviar formulario de contacto">
+                                        ${contact.contact_form.submit_text || 'Enviar Mensaje'}
+                                    </button>
+                                </form>
+                                <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            `;
+
+            // Add form submission handler
+            const form = document.getElementById('contact-form');
+            if (form) {
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const formData = new FormData(form);
+                    const messageDiv = document.getElementById('form-message');
+                    
+                    // Show success message (in real app, would send to server)
+                    messageDiv.innerHTML = `<div class="success-message" role="alert">¡Gracias por su mensaje! Nos pondremos en contacto pronto.</div>`;
+                    messageDiv.focus();
+                    form.reset();
+                    
+                    // Clear message after 5 seconds
+                    setTimeout(() => {
+                        messageDiv.innerHTML = '';
+                    }, 5000);
+                });
+            }
         },
     },
 
