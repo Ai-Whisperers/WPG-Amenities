@@ -2,12 +2,13 @@
 
 // Get base path from current location (handles both root and subdirectory deployments)
 const getBasePath = () => {
-    const path = window.location.pathname;
-    const pathParts = path.split('/').filter(Boolean);
-    // If deployed to subdirectory, use it; otherwise use root
-    return pathParts.length > 0 && !pathParts[0].includes('.html')
-        ? `/${pathParts[0]}/`
-        : '/';
+    const hostname = window.location.hostname;
+    // If on GitHub Pages (not custom domain), use repository name
+    if (hostname.includes('github.io')) {
+        return '/WPG-Amenities/';
+    }
+    // Otherwise use root for custom domain or local dev
+    return '/';
 };
 
 const basePath = getBasePath();
