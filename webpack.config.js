@@ -20,6 +20,7 @@ const htmlPlugins = htmlPages.map(page => {
     template: `./public/${page}.html`,
     filename: `${page}.html`,
     chunks: ['main'],
+    inject: false, // Don't auto-inject, preserve existing script tags
     minify: isProduction ? {
       collapseWhitespace: true,
       removeComments: true,
@@ -168,6 +169,21 @@ module.exports = {
         {
           from: 'public/js/vendor',
           to: 'js/vendor',
+          noErrorOnMissing: true
+        },
+        {
+          from: 'public/js/config.js',
+          to: 'js/config.js',
+          noErrorOnMissing: true
+        },
+        {
+          from: 'public/js/placeholder.js',
+          to: 'js/placeholder.js',
+          noErrorOnMissing: true
+        },
+        {
+          from: 'public/js/template-engine.js',
+          to: 'js/template-engine.js',
           noErrorOnMissing: true
         }
       ]
