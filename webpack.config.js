@@ -41,7 +41,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[contenthash:8].js',
-    publicPath: '/',
+    publicPath: process.env.PUBLIC_PATH || '/WPG-Amenities/',
     clean: true
   },
   
