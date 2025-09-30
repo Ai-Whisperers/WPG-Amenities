@@ -150,9 +150,30 @@ module.exports = {
   
   plugins: [
     new CleanWebpackPlugin(),
-    
+
     ...htmlPlugins,
-    
+
+    // Custom plugin to fix product pages paths
+    {
+      apply: (compiler) => {
+        compiler.hooks.compilation.tap('FixProductPaths', (compilation) => {
+          HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
+            'FixProductPaths',
+            (data, cb) => {
+              // Only process product pages
+              if (data.outputName.startsWith('products/')) {
+                const publicPath = process.env.PUBLIC_PATH || '/WPG-Amenities/';
+                // Replace relative ../ paths with absolute publicPath
+                data.html = data.html.replace(/href="\.\.\/css\//g, `href="${publicPath}css/`);
+                data.html = data.html.replace(/src="\.\.\/js\//g, `src="${publicPath}js/`);
+              }
+              cb(null, data);
+            }
+          );
+        });
+      }
+    },
+
     new MiniCssExtractPlugin({
       filename: isProduction ? 'css/[name].[contenthash:8].css' : 'css/[name].css',
       chunkFilename: isProduction ? 'css/[id].[contenthash:8].css' : 'css/[id].css'
