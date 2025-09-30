@@ -114,4 +114,7 @@
 
   /* Animations */
   --animate-bounce: bounce 1s infinite;
+
+  /* Page layout */
+  --page-end-margin: var(--spacing-16);
 }

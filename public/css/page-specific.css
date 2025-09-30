@@ -377,6 +377,13 @@
   margin-bottom: var(--spacing-4);
 }
 
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-4);
+}
+
 .applicable-products {
   margin-top: var(--spacing-4);
   font-size: var(--font-size-sm);
@@ -476,4 +483,12 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: var(--spacing-4);
   }
+}
+
+/* Product page specific styles - Add bottom margin before footer */
+#bottles-caps main,
+#soaps-liquids main,
+#amenity-kits main,
+#miscellaneous main {
+  margin-bottom: var(--page-end-margin);
 }

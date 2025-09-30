@@ -11,7 +11,9 @@
     "clean": "rimraf dist build",
     "preview": "cd dist && python -m http.server 8000",
     "serve:static": "cd public && python -m http.server 8000",
-    "analyze": "webpack-bundle-analyzer dist/stats.json"
+    "analyze": "webpack-bundle-analyzer dist/stats.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "hotel",
