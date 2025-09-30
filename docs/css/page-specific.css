@@ -1,0 +1,494 @@
+/* 
+  ==============================================
+  PAGE-SPECIFIC STYLES
+  ==============================================
+*/
+
+/* Contact Page Styles */
+.contact-hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+}
+
+.contact-content {
+  padding: var(--spacing-16) 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-12);
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-16);
+  }
+}
+
+.contact-info h3 {
+  margin-bottom: var(--spacing-6);
+}
+
+.contact-info .info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+}
+
+.contact-info .info-item svg {
+  width: 20px;
+  height: 20px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contact-form {
+  background: white;
+  padding: var(--spacing-8);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-form h3 {
+  margin-bottom: var(--spacing-6);
+}
+
+/* FAQ Page Styles */
+.faq-content {
+  padding: var(--spacing-16) 0;
+}
+
+.faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-4);
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  padding: var(--spacing-4) var(--spacing-6);
+  background: white;
+  border: none;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color var(--transition-fast);
+}
+
+.faq-question:hover {
+  background: var(--color-background-light);
+}
+
+.faq-answer {
+  padding: 0 var(--spacing-6) var(--spacing-4);
+  display: none;
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+}
+
+.faq-icon {
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Homepage Value Proposition Section */
+.value-prop {
+  padding: var(--spacing-16) 0;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.value-prop .container {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.value-prop h2 {
+  font-family: var(--font-family-headings);
+  font-size: var(--font-size-3xl);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-8);
+  font-weight: var(--font-weight-semibold);
+  position: relative;
+}
+
+.value-prop h2::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+}
+
+.value-prop p {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--color-text-light);
+  max-width: 800px;
+  margin: var(--spacing-10) auto 0;
+}
+
+/* Products Page Styles */
+#products .container > h1 {
+  margin-bottom: var(--spacing-8);
+  padding-top: var(--spacing-8);
+}
+
+#products .container > p {
+  margin-bottom: var(--spacing-12);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: var(--line-height-relaxed);
+}
+
+.categories-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-10);
+  margin-top: var(--spacing-12);
+  margin-bottom: var(--spacing-16);
+  padding: var(--spacing-8) 0;
+}
+
+.category-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-link .service-card {
+  background: white;
+  padding: var(--spacing-10);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+  min-height: 200px;
+  height: 100%;
+}
+
+.category-link .service-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.category-link .service-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-6);
+  font-family: var(--font-family-headings);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+.category-link .service-card p {
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.025em;
+}
+
+@media (min-width: 768px) {
+  .categories-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-12);
+  }
+}
+
+@media (min-width: 1024px) {
+  .categories-list {
+    gap: var(--spacing-16);
+  }
+  
+  .category-link .service-card {
+    padding: var(--spacing-12);
+  }
+}
+
+/* Privacy Policy & Terms Pages */
+.policy-hero {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+}
+
+.policy-content {
+  padding: var(--spacing-16) 0;
+}
+
+.policy-content h2 {
+  margin-top: var(--spacing-12);
+  margin-bottom: var(--spacing-6);
+}
+
+.policy-content h3 {
+  margin-top: var(--spacing-8);
+  margin-bottom: var(--spacing-4);
+}
+
+.policy-content ul, .policy-content ol {
+  margin-left: var(--spacing-6);
+  margin-bottom: var(--spacing-4);
+}
+
+.policy-content li {
+  margin-bottom: var(--spacing-2);
+}
+
+/* About Page Enhancements */
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-6);
+}
+
+@media (min-width: 640px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.value-card {
+  background: white;
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.value-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.value-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-8);
+}
+
+@media (min-width: 640px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-member {
+  background: white;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.team-member:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.team-member img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.team-member h3 {
+  padding: var(--spacing-4) var(--spacing-6) var(--spacing-2);
+  margin-bottom: 0;
+}
+
+.team-member .role {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  padding: 0 var(--spacing-6);
+  margin-bottom: var(--spacing-4);
+}
+
+.team-member .bio {
+  padding: 0 var(--spacing-6) var(--spacing-6);
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Customization Page Enhancements */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-6);
+}
+
+@media (min-width: 640px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.service-card {
+  background: white;
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.service-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.service-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-4);
+}
+
+.applicable-products {
+  margin-top: var(--spacing-4);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+  .process-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.process-step {
+  text-align: center;
+  position: relative;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.process-step h3 {
+  margin-bottom: var(--spacing-3);
+}
+
+/* CTA Section */
+.cta {
+  background: linear-gradient(135deg, var(--color-accent) 0%, #b8941f 100%);
+  color: white;
+}
+
+.cta-content {
+  text-align: center;
+  padding: var(--spacing-16) 0;
+}
+
+.cta h2 {
+  color: white;
+  margin-bottom: var(--spacing-8);
+}
+
+/* Bulk note styling */
+.bulk-note {
+  background: var(--color-background-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-4);
+  margin: var(--spacing-6) 0;
+}
+
+.bulk-note p {
+  margin: 0;
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+/* Category description styling */
+.category-description {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-8);
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Product grid container */
+.product-grid-container {
+  margin-top: var(--spacing-8);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-6);
+}
+
+@media (max-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--spacing-4);
+  }
+}
+
+/* Product page specific styles - Add bottom margin before footer */
+#bottles-caps main,
+#soaps-liquids main,
+#amenity-kits main,
+#miscellaneous main {
+  margin-bottom: var(--page-end-margin);
+}

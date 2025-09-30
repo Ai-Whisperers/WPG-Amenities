@@ -140,25 +140,30 @@ module.exports = {
     
     new CopyWebpackPlugin({
       patterns: [
-        { 
-          from: 'public/images', 
+        {
+          from: 'public/css',
+          to: 'css',
+          noErrorOnMissing: true
+        },
+        {
+          from: 'public/images',
           to: 'images',
-          noErrorOnMissing: true 
+          noErrorOnMissing: true
         },
-        { 
-          from: 'public/data', 
+        {
+          from: 'public/data',
           to: 'data',
-          noErrorOnMissing: true 
+          noErrorOnMissing: true
         },
-        { 
-          from: 'public/partials', 
+        {
+          from: 'public/partials',
           to: 'partials',
-          noErrorOnMissing: true 
+          noErrorOnMissing: true
         },
-        { 
-          from: 'public/products', 
+        {
+          from: 'public/products',
           to: 'products',
-          noErrorOnMissing: true 
+          noErrorOnMissing: true
         },
         {
           from: 'public/js/vendor',
